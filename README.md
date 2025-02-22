@@ -11,17 +11,17 @@ For questions, please contact yz937@duke.edu
 ---
 ## Details
 
-* 'Arthropod_Chordate_aCA/'
+* `Arthropod_Chordate_aCA/`
 
-* 'Arthropod_phylogeny/' contains 
+* `Arthropod_phylogeny/` contains 
 
-* 'Arthropod_dN/dS/'
+* `Arthropod_dN/dS/`
 
-* 'Chordate_dN/dS/'
+* `Chordate_dN/dS/`
 
-* 'Arthropod_vs_Chordate_dN/dS/'
+* `Arthropod_vs_Chordate_dN/dS/`
 
-* 'selection_pressure_analysis/'
+* `selection_pressure_analysis/`
 
 ---
 
