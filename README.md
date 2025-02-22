@@ -7,7 +7,18 @@ Each folder contains data and code required to recreate the results in each sect
 If you use any code or data from this repository please cite: [Zhou et al., 2025]( Insert link here )
 
 For questions, please contact yz937@duke.edu
+---
+## Details
 
+* 'Arthropod_Chordate_aCA/'
+
+* 'Arthropod_dN/dS/'
+
+* 'Chordate_dN/dS/'
+
+* 'Arthropod_vs_Chordate_dN/dS/'
+
+* 'selection_pressure_analysis/'
 
 ---
 
