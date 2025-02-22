@@ -1,0 +1,142 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=40;
+	taxlabels
+	'Adelges.cooleyi_XM_050566195.1_'
+	'Aethina.tumida_XM_020016762.2_'
+	'Aphonopelma.hentzi_TRINITY_DN1822_c0_g1_i1_'
+	'Argiope.bruennichi_XM_056068914.1_'
+	'Argiope.bruennichi_XM_056077625.1_'
+	'Aricia.agestis_XM_042119687.1_'
+	'Athalia.rosae_XM_012397450.2_'
+	'Calanus.finmarchicus_c92173_g2_i2_'
+	'Calanus.finmarchicus_c98176_g1_i1_'
+	'Carcinoscorpius.rotundicauda_comp69506_c1_seq1_'
+	'Carcinoscorpius.rotundicauda_comp71475_c0_seq1_'
+	'Carcinoscorpius.rotundicauda_comp92923_c1_seq5_'
+	'Centruroides.vittatus_GIPT01002438.1_'
+	'Daphnia.carinata_XM_057520454.1_'
+	'Daphnia.carinata_XM_057521362.1_'
+	'Daphnia.pulex_XM_046585175.1_'
+	'Daphnia.pulex_XM_046586478.1_'
+	'Dermacentor.andersoni_XM_050193158.1_'
+	'Dermacentor.andersoni_XM_055061825.1_'
+	'Drosophila.simulans_XM_002079344.4_'
+	'Eupolybothrus.cavernicolus_TRINITY_DN77940_c0_g1_i1_len1487_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH5_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH7_'
+	'Eurytemora.affinis_Europe.Clade__CAH5_'
+	'Eurytemora.affinis_Europe.Clade__CAH7_'
+	'Eurytemora.affinis_Gulf.Clade__CAH5_'
+	'Eurytemora.affinis_Gulf.Clade__CAH7_'
+	'Folsomia.candida_XM_022096997.2_'
+	'Helicorthomorpha.holstii_Hho_009670-T1_'
+	'Ischnura.elegans_XM_046528811.1_'
+	'Lepeophtheirus.salmonis_XM_040717313.1_'
+	'Penaeus.chinensis_XM_047619679.1_'
+	'Plodia.interpunctella_XM_053755760.1_'
+	'Portunus.trituberculatus_XM_045252186.1_'
+	'Stylopallene.cheilorhynchus_TRINITY_DN15444_c4_g4_i4_'
+	'Tachypleus.tridentatus_comp111601_c0_seq2_'
+	'Tanystylum.orbiculare_TRINITY_DN7385_c0_g1_i2_'
+	'Tigropus.californicus_XM_059239740.1_'
+	'Tigropus.californicus_XM_059242007.1_'
+	'Vespula.vulgaris_XM_051011073.1_'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Tanystylum.orbiculare_TRINITY_DN7385_c0_g1_i2_':0.248612,'Stylopallene.cheilorhynchus_TRINITY_DN15444_c4_g4_i4_':0.20573,((((((((('Dermacentor.andersoni_XM_050193158.1_':0.007461,'Dermacentor.andersoni_XM_055061825.1_':2.0E-6)[&label=100]:0.356236,'Argiope.bruennichi_XM_056077625.1_':0.222438)[&label=93]:0.113812,('Argiope.bruennichi_XM_056068914.1_':0.379751,'Aphonopelma.hentzi_TRINITY_DN1822_c0_g1_i1_':0.268439)[&label=82]:0.125437)[&label=63]:0.090059,('Ischnura.elegans_XM_046528811.1_':0.338176,('Portunus.trituberculatus_XM_045252186.1_':0.370929,'Penaeus.chinensis_XM_047619679.1_':0.165947)[&label=100]:0.181323)[&label=86]:0.057617)[&label=47]:0.035078,((('Vespula.vulgaris_XM_051011073.1_':0.213453,'Athalia.rosae_XM_012397450.2_':0.147769)[&label=100]:0.183898,(('Plodia.interpunctella_XM_053755760.1_':0.140593,'Aricia.agestis_XM_042119687.1_':0.176081)[&label=99]:0.125663,'Drosophila.simulans_XM_002079344.4_':0.199595)[&label=78]:0.065724)[&label=68]:0.04701,('Aethina.tumida_XM_020016762.2_':0.322297,'Adelges.cooleyi_XM_050566195.1_':0.30983)[&label=67]:0.126812)[&label=74]:0.057867)[&label=66]:0.088402,'Eupolybothrus.cavernicolus_TRINITY_DN77940_c0_g1_i1_len1487_':0.356462)[&label=49]:0.120789,('Helicorthomorpha.holstii_Hho_009670-T1_':0.328402,((('Lepeophtheirus.salmonis_XM_040717313.1_':0.433742,'Tigropus.californicus_XM_059239740.1_':0.263955)[&label=95]:0.117695,'Tigropus.californicus_XM_059242007.1_':0.472681)[&label=74]:0.018679,((('Eurytemora.affinis_Europe.Clade__CAH5_':0.028123,('Eurytemora.affinis_Gulf.Clade__CAH5_':0.02435,'Eurytemora.affinis_Atlantic.Clade__CAH5_':0.008561)[&label=98]:0.02976)[&label=100]:0.453663,'Calanus.finmarchicus_c98176_g1_i1_':0.250678)[&label=68]:0.076001,('Calanus.finmarchicus_c92173_g2_i2_':0.275308,('Eurytemora.affinis_Europe.Clade__CAH7_':2.0E-6,('Eurytemora.affinis_Gulf.Clade__CAH7_':0.002604,'Eurytemora.affinis_Atlantic.Clade__CAH7_':0.002293)[&label=100]:0.025303)[&label=100]:0.430345)[&label=85]:0.042269)[&label=100]:0.365521)[&label=97]:0.107951)[&label=46]:0.034151)[&label=22]:0.061339,(((('Carcinoscorpius.rotundicauda_comp92923_c1_seq5_':0.031539,'Tachypleus.tridentatus_comp111601_c0_seq2_':0.015933)[&label=100]:0.112435,'Carcinoscorpius.rotundicauda_comp69506_c1_seq1_':0.140812)[&label=97]:0.094308,'Folsomia.candida_XM_022096997.2_':0.384112)[&label=51]:0.029277,(('Daphnia.pulex_XM_046586478.1_':0.14824,'Daphnia.carinata_XM_057520454.1_':0.140251)[&label=99]:0.211667,('Daphnia.pulex_XM_046585175.1_':0.072504,'Daphnia.carinata_XM_057521362.1_':0.141612)[&label=100]:0.440164)[&label=86]:0.101247)[&label=29]:0.008392)[&label=28]:0.053655,('Centruroides.vittatus_GIPT01002438.1_':0.459413,'Carcinoscorpius.rotundicauda_comp71475_c0_seq1_':0.213358)[&label=50]:0.073336)[&label=100]:0.270525);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
