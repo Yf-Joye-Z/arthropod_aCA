@@ -13,7 +13,7 @@ For questions, please contact yz937@duke.edu
 
 * 'Arthropod_Chordate_aCA/'
 
-* 'Arthropod_phylogeny/'
+* 'Arthropod_phylogeny/' contains 
 
 * 'Arthropod_dN/dS/'
 
