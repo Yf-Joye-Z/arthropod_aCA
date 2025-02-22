@@ -13,6 +13,6 @@ For questions, please contact yz937@duke.edu
 
 <div align="center">
 <p align="center">
-<img src="https://github.com/Yf-Joye-Z/arthropod_aCA/blob/main/Homepage.png" width="600" height="540">
+<img src="https://github.com/Yf-Joye-Z/arthropod_aCA/blob/main/Homepage.png" width="800" height="540">
 </p>
 </div>
