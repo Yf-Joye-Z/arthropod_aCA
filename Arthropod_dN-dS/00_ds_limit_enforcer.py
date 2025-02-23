@@ -1,4 +1,4 @@
-# This script removes all dS value that is lower than 0.0001 or greater than 2 from the analysis
+# This script removes all dS value that is lower than 0.0001 or greater than 2 from the analysis. It also removes all dN/dS values that are greater than 3.
 import json
 
 def filter_json(input_json_path, output_json_path):
@@ -10,10 +10,12 @@ def filter_json(input_json_path, output_json_path):
         if "0" in branch_attitude:
             keys_to_remove = []
             for key, value in branch_attitude["0"].items():
-                print(value)
+               # print(value)
                 if "dS" in value and value["dS"] < 0.0001:
                     keys_to_remove.append(key)
                 if "dS" in value and value["dS"] >2:
+                    keys_to_remove.append(key)
+                if "dN" in value and value["dN"]/value["dS"] >3:
                     keys_to_remove.append(key)
             
             for key in keys_to_remove:
