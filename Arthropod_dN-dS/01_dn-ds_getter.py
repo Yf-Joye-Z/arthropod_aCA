@@ -3,6 +3,10 @@
 import json
 from openpyxl import Workbook
 
+# HARDCODED here. Please insert the file path and output file path
+input_file = ''
+output_file = ''
+
 def process_json_file(input_file, output_file):
     # Loading JSON file
     with open(input_file, 'r') as json_file:
@@ -29,10 +33,6 @@ def process_json_file(input_file, output_file):
 
     # Saving the excel
     wb.save(output_file)
-
-# Input and output file paths
-input_file = ''
-output_file = ''
 
 # Process JSON file
 process_json_file(input_file, output_file)
