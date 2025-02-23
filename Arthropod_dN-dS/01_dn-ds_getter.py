@@ -1,4 +1,4 @@
-# This codes extracts all MLE (omega)value from the output json of json_parser.py
+# This codes extracts all MLE (omega)value from the output json of ds_limit_enforcer.py
 
 import json
 from openpyxl import Workbook
