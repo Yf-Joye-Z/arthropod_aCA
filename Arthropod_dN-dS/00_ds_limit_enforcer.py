@@ -1,7 +1,10 @@
 # This script removes all dS value that is lower than 0.0001 or greater than 2 from the analysis. It also removes all dN/dS values that are greater than 3.
-# The last part of this function needs to be hardcoded (name of the json and output name). 
 
 import json
+
+# INSERT THE FILE NAME HERE ---> HARD CODED
+input_json_path = ""
+output_json_path = ""
 
 def filter_json(input_json_path, output_json_path):
     with open(input_json_path, 'r') as f:
@@ -34,7 +37,4 @@ def filter_json(input_json_path, output_json_path):
     with open(output_json_path, 'w') as f:
         json.dump(data, f, indent=4)
 
-# INSERT THE FILE NAME HERE ---> HARD CODED
-input_json_path = ""
-output_json_path = ""
 filter_json(input_json_path, output_json_path)
