@@ -1,0 +1,2691 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond",
+   "contact":"spond@temple.edu",
+   "info":"Fit an MG94xREV model with several selectable options frequency estimator and \nreport the fit results including dN/dS ratios, and synonymous and non-synonymous branch lengths. v0.2 adds LRT test for dN/dS != 1. \nv0.3 adds LRT test support for dN/dS != 1 for local models",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"0.3"
+  },
+ "branch attributes":{
+   "0":{
+     "Adelges_cooleyi_XM_050582687_1_CARP":{
+       "Confidence Intervals":{
+         "LB":3.210862691387125e-06,
+         "MLE":6.42172538277425e-06,
+         "UB":1.038885598852529e-05
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-11.78473415066401,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.186701145482348,
+       "Standard MG94":1304.303212247122,
+       "dN":0.03399795852426935,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.02581852318958351,
+       "original name":"Adelges.cooleyi_XM_050582687.1_CARP",
+       "synonymous":1304.277393723933
+      },
+     "Adelges_cooleyi_XM_050585766_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.07312154688285834,
+         "MLE":0.1094190189746116,
+         "UB":0.1565134880195386
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-7.951871194760315,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.2108903706065467,
+       "Standard MG94":0.2285888465821614,
+       "dN":0.07591955227501046,
+       "dS":0.7104920042110643,
+       "nonsynonymous":0.05765436532184488,
+       "original name":"Adelges.cooleyi_XM_050585766.1_CARP",
+       "synonymous":0.1709344812603165
+      },
+     "Aethina_tumida_XM_020010789_2_CARP":{
+       "Confidence Intervals":{
+         "LB":0.003876278859095935,
+         "MLE":0.009390288790359681,
+         "UB":0.01849751789813302
+        },
+       "LRT":{
+         "Corrected P-value":4.349396358627189e-05,
+         "FDR":5.759264246063545e-06,
+         "LRT":25.85215521080681,
+         "p-value":3.685929117480669e-07
+        },
+       "Nucleotide GTR":0.1149753741887019,
+       "Standard MG94":0.4704419839839369,
+       "dN":0.01742703803701775,
+       "dS":1.900391168563888,
+       "nonsynonymous":0.01323433538997078,
+       "original name":"Aethina.tumida_XM_020010789.2_CARP",
+       "synonymous":0.457207648593966
+      },
+     "Aethina_tumida_XM_049970166_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.0009399760764047689,
+         "MLE":0.004747633680338675,
+         "UB":0.01277644406854824
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.98649722779373,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1116716135515843,
+       "Standard MG94":0.4250042276471631,
+       "dN":0.008072198634964688,
+       "dS":1.741057086929901,
+       "nonsynonymous":0.006130140064115487,
+       "original name":"Aethina.tumida_XM_049970166.1_CARP",
+       "synonymous":0.4188740875830477
+      },
+     "Argiope_bruennichi_XM_056069369_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.001008778238916834,
+         "MLE":0.002275131308555172,
+         "UB":0.004259813497797564
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.46787975557527,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1412196638660561,
+       "Standard MG94":2.555670231168519,
+       "dN":0.02343728285711401,
+       "dS":10.54870549854942,
+       "nonsynonymous":0.01779859901044546,
+       "original name":"Argiope.bruennichi_XM_056069369.1_CARP",
+       "synonymous":2.537871632158071
+      },
+     "Argiope_bruennichi_XM_056071929_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.01796859790573216,
+         "MLE":0.03663919692159071,
+         "UB":0.06474121601538549
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-17.53071421947243,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.174312113476989,
+       "Standard MG94":0.2093907095678552,
+       "dN":0.02798091732336768,
+       "dS":0.7820137252447341,
+       "nonsynonymous":0.02124909830287268,
+       "original name":"Argiope.bruennichi_XM_056071929.1_CARP",
+       "synonymous":0.1881416112649824
+      },
+     "Argiope_bruennichi_XM_056073927_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.02433976089250921,
+         "MLE":0.04048201539229539,
+         "UB":0.06263596513032785
+        },
+       "LRT":{
+         "Corrected P-value":3.55329279942973e-05,
+         "FDR":5.332072027955778e-06,
+         "LRT":26.25876818729739,
+         "p-value":2.985960335655236e-07
+        },
+       "Nucleotide GTR":0.2013410054145555,
+       "Standard MG94":0.3377174308423077,
+       "dN":0.04933739123542004,
+       "dS":1.247993805108603,
+       "nonsynonymous":0.03746750202121503,
+       "original name":"Argiope.bruennichi_XM_056073927.1_CARP",
+       "synonymous":0.3002499288210928
+      },
+     "Argiope_bruennichi_XM_056074079_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.02199599364361862,
+         "MLE":0.03532510898588796,
+         "UB":0.05323418685581161
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-19.11985129129607,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.202192379152544,
+       "Standard MG94":0.4520536928166927,
+       "dN":0.05845419661628926,
+       "dS":1.694457025595021,
+       "nonsynonymous":0.04439093099630671,
+       "original name":"Argiope.bruennichi_XM_056074079.1_CARP",
+       "synonymous":0.407662761820386
+      },
+     "Argiope_bruennichi_XM_056074193_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.03932859531153785,
+         "MLE":0.05450872971468623,
+         "UB":0.07334543565242423
+        },
+       "LRT":{
+         "Corrected P-value":0.009324177389200328,
+         "FDR":0.0008519898930190358,
+         "LRT":15.51643503608648,
+         "p-value":8.179102972982744e-05
+        },
+       "Nucleotide GTR":0.2880967648756318,
+       "Standard MG94":0.635711140962647,
+       "dN":0.1204216632751777,
+       "dS":2.262230917041213,
+       "nonsynonymous":0.0914498881919326,
+       "original name":"Argiope.bruennichi_XM_056074193.1_CARP",
+       "synonymous":0.5442612527707148
+      },
+     "Aricia_agestis_XM_042113248_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.003913498389963399,
+         "MLE":0.01279051962489824,
+         "UB":0.02894272257071089
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-1.444228173757438,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.09867745997336728,
+       "Standard MG94":0.2329596951129444,
+       "dN":0.01163606046701888,
+       "dS":0.9315714158116589,
+       "nonsynonymous":0.008836586372933681,
+       "original name":"Aricia.agestis_XM_042113248.1_CARP",
+       "synonymous":0.2241231087400107
+      },
+     "Aricia_agestis_XM_042116792_1_CARP":{
+       "Confidence Intervals":{
+         "LB":2.371360181166495e-05,
+         "MLE":3.118888646171978e-05,
+         "UB":4.082242361005128e-05
+        },
+       "LRT":{
+         "Corrected P-value":0.03243013444089615,
+         "FDR":0.002759541732547324,
+         "LRT":13.15343693511386,
+         "p-value":0.0002869923401849217
+        },
+       "Nucleotide GTR":0.3614989475682444,
+       "Standard MG94":1304.402788526788,
+       "dN":0.1651204941257721,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.1253948028561328,
+       "original name":"Aricia.agestis_XM_042116792.1_CARP",
+       "synonymous":1304.277393723933
+      },
+     "Aricia_agestis_XM_042117247_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.01571100203089904
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-13.55234395763546,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.05911084051056573,
+       "Standard MG94":0.07638300941909106,
+       "dN":1.316804926239384e-10,
+       "dS":0.3174872445261377,
+       "nonsynonymous":1e-10,
+       "original name":"Aricia.agestis_XM_042117247.1_CARP",
+       "synonymous":0.07638300941909106
+      },
+     "Athalia_rosae_XM_012406171_2_CARP":{
+       "Confidence Intervals":{
+         "LB":0.002746343770037167,
+         "MLE":0.01121969690301531,
+         "UB":0.0278951570344088
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-22.15764935054904,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1314896162721573,
+       "Standard MG94":0.2279299337638486,
+       "dN":0.01003338212837132,
+       "dS":0.91572401014393,
+       "nonsynonymous":0.007619490122219771,
+       "original name":"Athalia.rosae_XM_012406171.2_CARP",
+       "synonymous":0.2203104436416287
+      },
+     "Athalia_rosae_XM_020855386_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.004574475441301296,
+         "MLE":0.01181880769987851,
+         "UB":0.02421805280300735
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-24.595008674165,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1150351271366107,
+       "Standard MG94":0.3295003802972056,
+       "dN":0.01525175793901938,
+       "dS":1.321431364731247,
+       "nonsynonymous":0.011582397388637,
+       "original name":"Athalia.rosae_XM_020855386.1_CARP",
+       "synonymous":0.3179179829085687
+      },
+     "Carcinoscorpius_rotundicauda_comp93952_c7_seq8_CARP":{
+       "Confidence Intervals":{
+         "LB":0.004157251454985811,
+         "MLE":0.07285326992349249,
+         "UB":0.3214609831271148
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.34344405790762,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01015141457315026,
+       "Standard MG94":0.01070569434470496,
+       "dN":0.002585295146522267,
+       "dS":0.03633786899102575,
+       "nonsynonymous":0.001963309139422434,
+       "original name":"Carcinoscorpius.rotundicauda_comp93952_c7_seq8_CARP",
+       "synonymous":0.00874238520528251
+      },
+     "Daphnia_carinata_XM_057512002_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":0,
+         "FDR":0,
+         "LRT":87.95453028277552,
+         "p-value":0
+        },
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.316804926239384e-10,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":1e-10,
+       "original name":"Daphnia.carinata_XM_057512002.1_CARP",
+       "synonymous":1e-10
+      },
+     "Daphnia_carinata_XM_057512005_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.90599018549983,
+         "p-value":1
+        },
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.316804926239384e-10,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":1e-10,
+       "original name":"Daphnia.carinata_XM_057512005.1_CARP",
+       "synonymous":1e-10
+      },
+     "Daphnia_carinata_XM_057521724_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.009095655152840807
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-24.52239040136919,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07066559016010251,
+       "Standard MG94":0.1671220470303739,
+       "dN":1.316804926239384e-10,
+       "dS":0.6946455581518297,
+       "nonsynonymous":1e-10,
+       "original name":"Daphnia.carinata_XM_057521724.1_CARP",
+       "synonymous":0.1671220470303738
+      },
+     "Daphnia_pulex_XM_046594733_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.02316878887053289
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.42104764915712,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04740166872884012,
+       "Standard MG94":0.05276798982858821,
+       "dN":1.316804926239384e-10,
+       "dS":0.2193310242326544,
+       "nonsynonymous":1e-10,
+       "original name":"Daphnia.pulex_XM_046594733.1_CARP",
+       "synonymous":0.05276798982858821
+      },
+     "Daphnia_pulex_XM_046597762_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.35061937006685,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.06418552705357872,
+       "Standard MG94":0.009729641959849825,
+       "dN":0.01281204046327566,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.009729641959849824,
+       "original name":"Daphnia.pulex_XM_046597762.1_CARP",
+       "synonymous":1e-10
+      },
+     "Dermacentor_andersoni_XM_050183355_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.005565876848480806,
+         "MLE":0.009709524640551819,
+         "UB":0.01547356903904235
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-9.381056655140128,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1844114190881061,
+       "Standard MG94":1.137095159084773,
+       "dN":0.04351291575114872,
+       "dS":4.589005633820547,
+       "nonsynonymous":0.03304431422155724,
+       "original name":"Dermacentor.andersoni_XM_050183355.1_CARP",
+       "synonymous":1.104050844863216
+      },
+     "Dermacentor_andersoni_XM_050184009_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.006015180511711344,
+         "MLE":0.008731487520335014,
+         "UB":0.0121903067613263
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":0.3585345062137282,
+         "LRT":3.787751203257358,
+         "p-value":0.05162896889477686
+        },
+       "Nucleotide GTR":0.2763299807334253,
+       "Standard MG94":2.67804174125497,
+       "dN":0.09242769699888943,
+       "dS":10.83957532265623,
+       "nonsynonymous":0.0701908803324805,
+       "original name":"Dermacentor.andersoni_XM_050184009.1_CARP",
+       "synonymous":2.607850860922491
+      },
+     "Drosophila_simulans_XM_016173672_2_CARP":{
+       "Confidence Intervals":{
+         "LB":2.689567966432124e-06,
+         "MLE":5.379135932864248e-06,
+         "UB":9.459453509704939e-06
+        },
+       "LRT":{
+         "Corrected P-value":4.333785024179804e-07,
+         "FDR":1.468084357784486e-07,
+         "LRT":34.8707179511548,
+         "p-value":3.523402458682767e-09
+        },
+       "Nucleotide GTR":0.17706781618276,
+       "Standard MG94":1304.299020520087,
+       "dN":0.02847827171689488,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.02162679615592338,
+       "original name":"Drosophila.simulans_XM_016173672.2_CARP",
+       "synonymous":1304.277393723933
+      },
+     "Eurytemora_affinis_Atlantic_Clade__CAH2_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.2006621132947158
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-19.73125998341129,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.005818887743660672,
+       "Standard MG94":0.005925220548824241,
+       "dN":1.316804926239384e-10,
+       "dS":0.02462827740832214,
+       "nonsynonymous":1e-10,
+       "original name":"Eurytemora.affinis_Atlantic.Clade__CAH2_CARP",
+       "synonymous":0.005925220548824241
+      },
+     "Eurytemora_affinis_Atlantic_Clade__CAH4_CARP":{
+       "Confidence Intervals":{
+         "LB":0.01894578405966157,
+         "MLE":0.114011617362436,
+         "UB":0.3529527155699077
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-19.58732539053744,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01559715813376497,
+       "Standard MG94":0.01509420811607217,
+       "dN":0.005168825060027097,
+       "dS":0.04642384422326228,
+       "nonsynonymous":0.003925277736307198,
+       "original name":"Eurytemora.affinis_Atlantic.Clade__CAH4_CARP",
+       "synonymous":0.011168930379765
+      },
+     "Eurytemora_affinis_Europe_Clade__CAH2_CARP":{
+       "Confidence Intervals":{
+         "LB":0.002520585006134991,
+         "MLE":0.04416675224196105,
+         "UB":0.194945931615872
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-12.72925271780696,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01571595179588257,
+       "Standard MG94":0.01594089364491013,
+       "dN":0.002515388639803094,
+       "dS":0.058318722690922,
+       "nonsynonymous":0.001910221164638791,
+       "original name":"Eurytemora.affinis_Europe.Clade__CAH2_CARP",
+       "synonymous":0.01403067248027133
+      },
+     "Eurytemora_affinis_Europe_Clade__CAH4_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0.04292243428743069,
+         "UB":0.2002541905835849
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-24.92327721178299,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01197626752994485,
+       "Standard MG94":0.01774009563185757,
+       "dN":0.002729643564235541,
+       "dS":0.06512083634761225,
+       "nonsynonymous":0.002072929338160233,
+       "original name":"Eurytemora.affinis_Europe.Clade__CAH4_CARP",
+       "synonymous":0.01566716629369735
+      },
+     "Eurytemora_affinis_Gulf_Clade__CAH2_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.14910528884462
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-16.81169801396754,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.007854238809404845,
+       "Standard MG94":0.007980459936353998,
+       "dN":1.316804926239384e-10,
+       "dS":0.03317091398353571,
+       "nonsynonymous":1e-10,
+       "original name":"Eurytemora.affinis_Gulf.Clade__CAH2_CARP",
+       "synonymous":0.007980459936353998
+      },
+     "Eurytemora_affinis_Gulf_Clade__CAH4_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.2937739231192374
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-21.94158181586681,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.00445331992325836,
+       "Standard MG94":0.004172179631457378,
+       "dN":1.316804926239384e-10,
+       "dS":0.01734173378259705,
+       "nonsynonymous":1e-10,
+       "original name":"Eurytemora.affinis_Gulf.Clade__CAH4_CARP",
+       "synonymous":0.004172179631457378
+      },
+     "Folsomia_candida_XM_022098501_2_CARP":{
+       "Confidence Intervals":{
+         "LB":0.01801276914110029,
+         "MLE":0.02737594185938217,
+         "UB":0.03962507255462185
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-18.22522412573744,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.2366856498915665,
+       "Standard MG94":0.6927739476453807,
+       "dN":0.07099163967981074,
+       "dS":2.65544010737466,
+       "nonsynonymous":0.05391203986649201,
+       "original name":"Folsomia.candida_XM_022098501.2_CARP",
+       "synonymous":0.6388619077788886
+      },
+     "Folsomia_candida_XM_035853126_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.006353550975274192,
+         "MLE":0.01089399843188696,
+         "UB":0.01725722927957679
+        },
+       "LRT":{
+         "Corrected P-value":5.080691185654906e-06,
+         "FDR":1.049729583812997e-06,
+         "LRT":30.05533464581822,
+         "p-value":4.198918335251989e-08
+        },
+       "Nucleotide GTR":0.210945621504869,
+       "Standard MG94":0.9756781169075474,
+       "dN":0.04174268580164314,
+       "dS":3.923660783061553,
+       "nonsynonymous":0.0316999769440828,
+       "original name":"Folsomia.candida_XM_035853126.1_CARP",
+       "synonymous":0.9439781399634636
+      },
+     "Helicorthomorpha.holstii_Hho_002072-T1_CARP":{
+       "original name":0
+      },
+     "Helicorthomorpha.holstii_Hho_009616-T1_CARP":{
+       "original name":0
+      },
+     "Helicorthomorpha_holstii_Hho_002072_T1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.01709391047942713,
+         "MLE":0.03185058151629085,
+         "UB":0.05326846927315688
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-21.7584303663607,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.14008616320158,
+       "Standard MG94":0.2871347867186487,
+       "dN":0.03380340345874853,
+       "dS":1.086779496373439,
+       "nonsynonymous":0.02567077536327758,
+       "synonymous":0.2614640113553708
+      },
+     "Helicorthomorpha_holstii_Hho_009616_T1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.002826723802640552,
+         "MLE":0.00731818842953413,
+         "UB":0.01500022903504701
+        },
+       "LRT":{
+         "Corrected P-value":0.09829909878383347,
+         "FDR":0.007836343971925499,
+         "LRT":11.06933713881881,
+         "p-value":0.000877670524855656
+        },
+       "Nucleotide GTR":0.1647980366855491,
+       "Standard MG94":0.5357709101023643,
+       "dN":0.01556415795426879,
+       "dS":2.1778121445086,
+       "nonsynonymous":0.01181963831098195,
+       "synonymous":0.5239512717913818
+      },
+     "Ischnura_elegans_XM_046538715_1_CARP":{
+       "Confidence Intervals":{
+         "LB":1.892034249807438e-06,
+         "MLE":3.784068499614875e-06,
+         "UB":7.267607122868758e-06
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-6.755095002466987,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1253381244599821,
+       "Standard MG94":1304.292607557362,
+       "dN":0.02003365080792701,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.01521383343024118,
+       "original name":"Ischnura.elegans_XM_046538715.1_CARP",
+       "synonymous":1304.277393723933
+      },
+     "Ischnura_elegans_XM_046538883_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.009284865922317606,
+         "MLE":0.02606664871042633,
+         "UB":0.05627906265441583
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-12.14693810525205,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.09061906818036357,
+       "Standard MG94":0.1321975492705627,
+       "dN":0.01294716251749159,
+       "dS":0.5086133713621763,
+       "nonsynonymous":0.009832255529653069,
+       "original name":"Ischnura.elegans_XM_046538883.1_CARP",
+       "synonymous":0.1223652937409094
+      },
+     "Ischnura_elegans_XM_046539321_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.001715389391086207,
+         "MLE":0.01121365940454112,
+         "UB":0.03509625125758058
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-23.18222849829181,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.08516110014270604,
+       "Standard MG94":0.1148953510061693,
+       "dN":0.005055015524386686,
+       "dS":0.4616081903096375,
+       "nonsynonymous":0.003838849189927564,
+       "original name":"Ischnura.elegans_XM_046539321.1_CARP",
+       "synonymous":0.1110565018162418
+      },
+     "Lepeophtheirus_salmonis_XM_040713379_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.06835989046746249,
+         "MLE":0.1010737993735852,
+         "UB":0.1427198057751692
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-23.14041944306518,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.2147209356414765,
+       "Standard MG94":0.3077757760082836,
+       "dN":0.09627520216891908,
+       "dS":0.9753808424760643,
+       "nonsynonymous":0.07311272934243036,
+       "original name":"Lepeophtheirus.salmonis_XM_040713379.1_CARP",
+       "synonymous":0.2346630466658532
+      },
+     "Lepeophtheirus_salmonis_XM_040721531_1_CARP":{
+       "Confidence Intervals":{
+         "LB":7.966118029179544e-06,
+         "MLE":1.280141314843167e-05,
+         "UB":1.896567675003718e-05
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-16.67247066580603,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.2356932219723284,
+       "Standard MG94":1304.328861758228,
+       "dN":0.06777336110321119,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.05146803429477038,
+       "original name":"Lepeophtheirus.salmonis_XM_040721531.1_CARP",
+       "synonymous":1304.277393723933
+      },
+     "Node10":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":7223.868691133306,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-21.40350670952466,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.002785386191134007,
+       "Standard MG94":0.002904353739897684,
+       "dN":0.00382446731223905,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.002904353739897684,
+       "synonymous":1e-10
+      },
+     "Node100":{
+       "Confidence Intervals":{
+         "LB":0.0003322384503926357,
+         "MLE":0.01757381367231693,
+         "UB":0.06908557518889424
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.13407374354574,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01165478454965685,
+       "Standard MG94":0.05435326714409747,
+       "dN":0.003677996357446946,
+       "dS":0.2143105992102007,
+       "nonsynonymous":0.002793121656941855,
+       "synonymous":0.05156014548715562
+      },
+     "Node103":{
+       "Confidence Intervals":{
+         "LB":0.08181005550166325,
+         "MLE":0.2637062145974327,
+         "UB":0.6002529718063803
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-13.23795405000419,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04676940928317253,
+       "Standard MG94":0.02013735152186548,
+       "dN":0.0118900361509922,
+       "dS":0.04617013917063273,
+       "nonsynonymous":0.009029459044437605,
+       "synonymous":0.01110789247742786
+      },
+     "Node107":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":0.8057434444634849,
+         "LRT":2.229873858261271,
+         "p-value":0.1353648986698655
+        },
+       "Nucleotide GTR":0.1365696514870198,
+       "Standard MG94":0.0340274528948525,
+       "dN":0.04480751759932036,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.0340274528948525,
+       "synonymous":1e-10
+      },
+     "Node109":{
+       "Confidence Intervals":{
+         "LB":0.0003209428883783544,
+         "MLE":0.005624725601630405,
+         "UB":0.02481615178543255
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-21.71914464885776,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07492071987672454,
+       "Standard MG94":0.1135390811332646,
+       "dN":0.002548076056621657,
+       "dS":0.463884028082656,
+       "nonsynonymous":0.001935044444205275,
+       "synonymous":0.1116040366890593
+      },
+     "Node112":{
+       "Confidence Intervals":{
+         "LB":0.0002416017553440313,
+         "MLE":0.0008973674231927128,
+         "UB":0.002183368816008467
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.50499630974809,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04296025735779657,
+       "Standard MG94":2.666218420127569,
+       "dN":0.009684952390917602,
+       "dS":11.05161033707433,
+       "nonsynonymous":0.007354887727050436,
+       "synonymous":2.658863532400515
+      },
+     "Node113":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-28.00024903799203,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.02009128799157826,
+       "Standard MG94":0,
+       "dN":1.316804926239384e-10,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "Node115":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":2359.888006117849,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.90408819077129,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.007242262679211168,
+       "Standard MG94":0.0009487921014844455,
+       "dN":0.001249374113211736,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.0009487921014844457,
+       "synonymous":1e-10
+      },
+     "Node116":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-1.664337698413874,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07048562413136729,
+       "Standard MG94":0.01081038314278197,
+       "dN":0.01423516577695049,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.01081038314278197,
+       "synonymous":1e-10
+      },
+     "Node119":{
+       "Confidence Intervals":{
+         "LB":0.001118376215613355,
+         "MLE":0.003037253798845583,
+         "UB":0.006182780286400302
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-11.49208798012842,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.05131288317811149,
+       "Standard MG94":1.519506786224813,
+       "dN":0.0185595616730517,
+       "dS":6.257271575329187,
+       "nonsynonymous":0.01409438961172122,
+       "synonymous":1.505412396613093
+      },
+     "Node120":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.87420914798713,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.06653015041910489,
+       "Standard MG94":0.01912683296454596,
+       "dN":0.02518630787107197,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.01912683296454596,
+       "synonymous":1e-10
+      },
+     "Node124":{
+       "Confidence Intervals":{
+         "LB":0.08021305128980016,
+         "MLE":0.1401089815401996,
+         "UB":0.2241565599052321
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-8.045030929941277,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1204413583777066,
+       "Standard MG94":0.1028611189983218,
+       "dN":0.04085431614456655,
+       "dS":0.2985866198287649,
+       "nonsynonymous":0.03102533665426125,
+       "synonymous":0.07183578234406041
+      },
+     "Node15":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-29.09569136660866,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.009933031424223839,
+       "Standard MG94":0.007792858300503278,
+       "dN":0.01026167419958819,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.007792858300503279,
+       "synonymous":1e-10
+      },
+     "Node17":{
+       "Confidence Intervals":{
+         "LB":9.158017758303346e-07,
+         "MLE":1.831603551660669e-06,
+         "UB":4.490464646059476e-06
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.47495815619914,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04459162731742922,
+       "Standard MG94":1304.284757679249,
+       "dN":0.009696892637187541,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.007363955316358473,
+       "synonymous":1304.277393723933
+      },
+     "Node19":{
+       "Confidence Intervals":{
+         "LB":0.06237846286581818,
+         "MLE":0.09982787661653875,
+         "UB":0.149953820125676
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.16139736478362,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.2133053592982939,
+       "Standard MG94":0.1914218452466381,
+       "dN":0.05931415422942822,
+       "dS":0.6084219613287554,
+       "nonsynonymous":0.04504399478427027,
+       "synonymous":0.1463778504623678
+      },
+     "Node23":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":6215.726599958187,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.9610729525084,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.03133233204226711,
+       "Standard MG94":0.002499030584391463,
+       "dN":0.003290735784349566,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.002499030584391463,
+       "synonymous":1e-10
+      },
+     "Node24":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-28.00028221301181,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01267774706735759,
+       "Standard MG94":0.007339814233029269,
+       "dN":0.00966510353973489,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.00733981423302927,
+       "synonymous":1e-10
+      },
+     "Node25":{
+       "Confidence Intervals":{
+         "LB":0.00495126915945542,
+         "MLE":0.02212847183030575,
+         "UB":0.05871719117729501
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-12.07611966715922,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07367203079780202,
+       "Standard MG94":0.09359795869828656,
+       "dN":0.007870303301904743,
+       "dS":0.3641987236990307,
+       "nonsynonymous":0.005976817936413148,
+       "synonymous":0.08762114076187331
+      },
+     "Node28":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-28.00154019296315,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01142592237120565,
+       "Standard MG94":0,
+       "dN":1.316804926239384e-10,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "Node29":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.00782548388088,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1156179405116578,
+       "Standard MG94":0.04305245198737275,
+       "dN":0.05669168086365704,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.04305245198737278,
+       "synonymous":1e-10
+      },
+     "Node3":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-23.5590853705944,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.06261911149778912,
+       "Standard MG94":0.008403680136650179,
+       "dN":0.01106600740248102,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.008403680136650179,
+       "synonymous":1e-10
+      },
+     "Node30":{
+       "Confidence Intervals":{
+         "LB":1.118738017379561e-06,
+         "MLE":4.443983766211405e-06,
+         "UB":9.506945328709531e-06
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-20.77917962511128,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.05910539723276849,
+       "Standard MG94":1304.295260744255,
+       "dN":0.02352738037840398,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.01786702032289246,
+       "synonymous":1304.277393723933
+      },
+     "Node33":{
+       "Confidence Intervals":{
+         "LB":0.07416025429427026,
+         "MLE":0.1016611219892925,
+         "UB":0.1355874614804821
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-15.76696409485157,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.3058137260398999,
+       "Standard MG94":0.4635121338981598,
+       "dN":0.1456325130984424,
+       "dS":1.466904425088482,
+       "nonsynonymous":0.1105953586567671,
+       "synonymous":0.3529167752413923
+      },
+     "Node34":{
+       "Confidence Intervals":{
+         "LB":0.006885392591755135,
+         "MLE":0.06545122093833836,
+         "UB":0.2129029464210458
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.09017161664087,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.02833176783135863,
+       "Standard MG94":0.02279583724390509,
+       "dN":0.005039506122576341,
+       "dS":0.07884399069942213,
+       "nonsynonymous":0.003827071134194861,
+       "synonymous":0.01896876610971024
+      },
+     "Node38":{
+       "Confidence Intervals":{
+         "LB":5.001610586535871e-07,
+         "MLE":1.000322117307174e-06,
+         "UB":3.032612311274854e-06
+        },
+       "LRT":{
+         "Corrected P-value":0.0027243002559868,
+         "FDR":0.0002691996300382214,
+         "LRT":17.86698261718266,
+         "p-value":2.368956744336348e-05
+        },
+       "Nucleotide GTR":0.08302338732573553,
+       "Standard MG94":1304.281415515312,
+       "dN":0.005295914700174612,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.004021791379000247,
+       "synonymous":1304.277393723933
+      },
+     "Node39":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.35536906088964,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.0405923528699957,
+       "Standard MG94":0.008103988534214911,
+       "dN":0.01067137202404168,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.008103988534214913,
+       "synonymous":1e-10
+      },
+     "Node40":{
+       "Confidence Intervals":{
+         "LB":0.009532369444948556,
+         "MLE":0.05578753663743821,
+         "UB":0.1443193294368675
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.83728933013481,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.02361906400105227,
+       "Standard MG94":0.05591792224195453,
+       "dN":0.01080447605151515,
+       "dS":0.1983192627954493,
+       "nonsynonymous":0.008205069586405074,
+       "synonymous":0.04771285265554941
+      },
+     "Node41":{
+       "Confidence Intervals":{
+         "LB":0.05933166610220564,
+         "MLE":0.1115843707009785,
+         "UB":0.1859817000220575
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-24.79207098083862,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07433400101572228,
+       "Standard MG94":0.1084472862163869,
+       "dN":0.03654816228860301,
+       "dS":0.3353980624598584,
+       "nonsynonymous":0.02775518344465766,
+       "synonymous":0.08069210277172929
+      },
+     "Node44":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.2386342694914708
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.46457963415014,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.009199367971596222,
+       "Standard MG94":0.01041774813535005,
+       "dN":1.316804926239384e-10,
+       "dS":0.04330154277520419,
+       "nonsynonymous":1e-10,
+       "synonymous":0.01041774813535005
+      },
+     "Node45":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.31228723099775,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.05664269161172724,
+       "Standard MG94":0.0336783855240941,
+       "dN":0.04434786396591627,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.0336783855240941,
+       "synonymous":1e-10
+      },
+     "Node46":{
+       "Confidence Intervals":{
+         "LB":0.08759371515743285,
+         "MLE":0.2156856773610626,
+         "UB":0.4002687477590369
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.41553770886094,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04437509300000064,
+       "Standard MG94":0.06258723660063308,
+       "dN":0.03291244809576636,
+       "dS":0.156256198308772,
+       "nonsynonymous":0.02499417145238045,
+       "synonymous":0.03759306514825257
+      },
+     "Node47":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.28756917849387,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07078149031719544,
+       "Standard MG94":0.0357029184756191,
+       "dN":0.04701377892981836,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.0357029184756191,
+       "synonymous":1e-10
+      },
+     "Node5":{
+       "Confidence Intervals":{
+         "LB":0.05432609609998797,
+         "MLE":0.2116483662495002,
+         "UB":0.4842613383469928
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.98401732536877,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.0694949884234012,
+       "Standard MG94":0.02832699148054505,
+       "dN":0.0147274350812872,
+       "dS":0.07125421663670242,
+       "nonsynonymous":0.01118421930828187,
+       "synonymous":0.0171427721722632
+      },
+     "Node50":{
+       "Confidence Intervals":{
+         "LB":0.11290431837204,
+         "MLE":0.1934905262242463,
+         "UB":0.3024636432328194
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.32097362817876,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.08027514129197651,
+       "Standard MG94":0.1122469823671142,
+       "dN":0.0552219749122332,
+       "dS":0.292247363459016,
+       "nonsynonymous":0.04193633681941003,
+       "synonymous":0.07031064554770416
+      },
+     "Node51":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.09380651049300667
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.25641360280133,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.02905224751263224,
+       "Standard MG94":0.03133213553221149,
+       "dN":1.316804926239384e-10,
+       "dS":0.1302325405989442,
+       "nonsynonymous":1e-10,
+       "synonymous":0.03133213553221147
+      },
+     "Node56":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":0.002251799252524389,
+         "FDR":0.0002426507815220247,
+         "LRT":18.24612336236169,
+         "p-value":1.941206252176197e-05
+        },
+       "Nucleotide GTR":0.03764852725524352,
+       "Standard MG94":0.02824691298596105,
+       "dN":0.03719567417096874,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.02824691298596105,
+       "synonymous":1e-10
+      },
+     "Node58":{
+       "Confidence Intervals":{
+         "LB":0.2747625373975536,
+         "MLE":0.4761164980064045,
+         "UB":0.7509830744596327
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.16236978161032,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07949450946314358,
+       "Standard MG94":0.06300949362742035,
+       "dN":0.04934765782617831,
+       "dS":0.1061333047480809,
+       "nonsynonymous":0.03747529861321867,
+       "synonymous":0.02553419501420165
+      },
+     "Node6":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-21.98856925754808,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.03819641683216829,
+       "Standard MG94":0,
+       "dN":1.316804926239384e-10,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "Node61":{
+       "Confidence Intervals":{
+         "LB":0.03819803353163809,
+         "MLE":0.05461483844461182,
+         "UB":0.07540380150990177
+        },
+       "LRT":{
+         "Corrected P-value":0.0005900287150282235,
+         "FDR":7.004139542120412e-05,
+         "LRT":20.82089342062682,
+         "p-value":5.042980470326697e-06
+        },
+       "Nucleotide GTR":0.2075766683156423,
+       "Standard MG94":0.5189299582151481,
+       "dN":0.09846378696558825,
+       "dS":1.846138396040533,
+       "nonsynonymous":0.07477477111722799,
+       "synonymous":0.4441551870979198
+      },
+     "Node64":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":5133.542902351745,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.90528501212248,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.02641999649289058,
+       "Standard MG94":0.002063939028358973,
+       "dN":0.002717805080000823,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.002063939028358973,
+       "synonymous":1e-10
+      },
+     "Node66":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0.04311349115601083,
+         "UB":0.199790140150574
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-28.00071054962609,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.0132635396785721,
+       "Standard MG94":0.01631069407805437,
+       "dN":0.002519564295216453,
+       "dS":0.05984262379437777,
+       "nonsynonymous":0.001913392215513642,
+       "synonymous":0.01439730186254071
+      },
+     "Node67":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":9869.93242112535,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-20.52240347528277,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.02880652365747752,
+       "Standard MG94":0.003968202685496986,
+       "dN":0.005225348844578784,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.003968202685496985,
+       "synonymous":1e-10
+      },
+     "Node68":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.98484813240066,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.016518838598739,
+       "Standard MG94":0,
+       "dN":1.316804926239384e-10,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "Node69":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.90631769265747,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.02008032015639443,
+       "Standard MG94":0,
+       "dN":1.316804926239384e-10,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "Node7":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.19333958654897,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.02020293889229204,
+       "Standard MG94":0.01046626364213593,
+       "dN":0.01378202752328475,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.01046626364213593,
+       "synonymous":1e-10
+      },
+     "Node70":{
+       "Confidence Intervals":{
+         "LB":0.006656721508992399,
+         "MLE":0.01703829395058249,
+         "UB":0.03481302855417055
+        },
+       "LRT":{
+         "Corrected P-value":0.2127052784204823,
+         "FDR":0.01596886474628245,
+         "LRT":9.628065129189054,
+         "p-value":0.001916263769553894
+        },
+       "Nucleotide GTR":0.07898451873573292,
+       "Standard MG94":0.2338525185007134,
+       "dN":0.01536626755565291,
+       "dS":0.9235079905244279,
+       "nonsynonymous":0.01166935758627277,
+       "synonymous":0.2221831609144407
+      },
+     "Node73":{
+       "Confidence Intervals":{
+         "LB":0.01663323704980584,
+         "MLE":0.05435209233965292,
+         "UB":0.1271113499040624
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.50567350169149,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.06694971499315011,
+       "Standard MG94":0.05415163997918616,
+       "dN":0.01023260443524568,
+       "dS":0.1927828035323512,
+       "nonsynonymous":0.007770782316609801,
+       "synonymous":0.04638085766257635
+      },
+     "Node77":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":5544.599115427679,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.9989352077464,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.05163370263409427,
+       "Standard MG94":0.002229204027045984,
+       "dN":0.002935426844406825,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.002229204027045984,
+       "synonymous":1e-10
+      },
+     "Node8":{
+       "Confidence Intervals":{
+         "LB":0.02522764134939319,
+         "MLE":0.155259751294003,
+         "UB":0.4359804902754833
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.36229707492748,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04288967980310202,
+       "Standard MG94":0.01811291010213248,
+       "dN":0.007720205996415143,
+       "dS":0.05091765284740283,
+       "nonsynonymous":0.005862831952233807,
+       "synonymous":0.01225007814989868
+      },
+     "Node80":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.98070597156766,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.08009671552865398,
+       "Standard MG94":0.01987010361531846,
+       "dN":0.02616505032553835,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.01987010361531846,
+       "synonymous":1e-10
+      },
+     "Node83":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":5397.874160195491,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.96147145018767,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01765907168019731,
+       "Standard MG94":0.002170213312972236,
+       "dN":0.002857747581512135,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.002170213312972236,
+       "synonymous":1e-10
+      },
+     "Node84":{
+       "Confidence Intervals":{
+         "LB":0.08026048916459189,
+         "MLE":0.1642561393661713,
+         "UB":0.2915714987056231
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-26.79947838226508,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07504907330619419,
+       "Standard MG94":0.06177456202681066,
+       "dN":0.02734280675313193,
+       "dS":0.1704589681766737,
+       "nonsynonymous":0.02076450824893196,
+       "synonymous":0.04101005377787864
+      },
+     "Node87":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.93625961485668,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.03789941870980226,
+       "Standard MG94":0.00907242351999697,
+       "dN":0.01194661198406207,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.00907242351999697,
+       "synonymous":1e-10
+      },
+     "Node88":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.94272243306477,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.06369551786530588,
+       "Standard MG94":0.01072696428873696,
+       "dN":0.0141253194190028,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.01072696428873697,
+       "synonymous":1e-10
+      },
+     "Node89":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":10000,
+         "UB":10000
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.9172223325877,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.05900556493380884,
+       "Standard MG94":0.01830572907789147,
+       "dN":0.02410507422817103,
+       "dS":4.156516572739086e-10,
+       "nonsynonymous":0.01830572907789147,
+       "synonymous":1e-10
+      },
+     "Node9":{
+       "Confidence Intervals":{
+         "LB":0.005322125235651115,
+         "MLE":0.02362325484075197,
+         "UB":0.06016458938612179
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.68202889351232,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04735019896542234,
+       "Standard MG94":0.1148298302027562,
+       "dN":0.01026357886422735,
+       "dS":0.4448949355020229,
+       "nonsynonymous":0.007794304729356331,
+       "synonymous":0.1070355254733998
+      },
+     "Node90":{
+       "Confidence Intervals":{
+         "LB":0.003753160495663921,
+         "MLE":0.008274173628964572,
+         "UB":0.01483632695422055
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-25.10395316615177,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04966557410233873,
+       "Standard MG94":1.023779170325221,
+       "dN":0.03352926678491184,
+       "dS":4.14951940200349,
+       "nonsynonymous":0.02546259215529127,
+       "synonymous":0.99831657816993
+      },
+     "Node93":{
+       "Confidence Intervals":{
+         "LB":0.03639328196166636,
+         "MLE":0.04953564278237937,
+         "UB":0.06558012131078617
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-19.77166759855027,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.3375578282319228,
+       "Standard MG94":0.8192238399196922,
+       "dN":0.1429014918758301,
+       "dS":2.954046540033954,
+       "nonsynonymous":0.108521383105649,
+       "synonymous":0.710702456814043
+      },
+     "Node98":{
+       "Confidence Intervals":{
+         "LB":5.03905848894148e-07,
+         "MLE":2.008012499038201e-06,
+         "UB":4.493810362806111e-06
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-31.94208560508559,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.04583490087235697,
+       "Standard MG94":1304.285466930771,
+       "dN":0.01063083853470898,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.008073206837909705,
+       "synonymous":1304.277393723933
+      },
+     "Node99":{
+       "Confidence Intervals":{
+         "LB":0.03447335679755571,
+         "MLE":0.05392330700122515,
+         "UB":0.07977106845496483
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.93995472836104,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1286591413642443,
+       "Standard MG94":0.3309346387967686,
+       "dN":0.06211106622625286,
+       "dS":1.17948070075853,
+       "nonsynonymous":0.04716800870697957,
+       "synonymous":0.283766630089789
+      },
+     "Penaeus_chinensis_XM_047622518_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.1454561245417056,
+         "MLE":0.1936189233411393,
+         "UB":0.2523625280199246
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-3.763237272672995,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.2872409321671727,
+       "Standard MG94":0.3662058687797993,
+       "dN":0.1802366049532691,
+       "dS":0.9532209320683294,
+       "nonsynonymous":0.1368741879391356,
+       "original name":"Penaeus.chinensis_XM_047622518.1_CARP",
+       "synonymous":0.2293316808406637
+      },
+     "Penaeus_chinensis_XM_047624945_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.06337549191645109
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-17.44038963555795,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.01040534808839358,
+       "Standard MG94":0.02011844391057882,
+       "dN":1.316804926239384e-10,
+       "dS":0.08362264553204261,
+       "nonsynonymous":1e-10,
+       "original name":"Penaeus.chinensis_XM_047624945.1_CARP",
+       "synonymous":0.02011844391057882
+      },
+     "Penaeus_chinensis_XM_047624972_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.1739265315713753,
+         "MLE":0.3815019431127486,
+         "UB":0.7130576611161727
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.90612385368149,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.03431083752483674,
+       "Standard MG94":0.02848335851264202,
+       "dN":0.02027032309968236,
+       "dS":0.05440794090614235,
+       "nonsynonymous":0.01539356566471212,
+       "original name":"Penaeus.chinensis_XM_047624972.1_CARP",
+       "synonymous":0.01308979284792994
+      },
+     "Penaeus_chinensis_XM_047626433_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.01627995419739403,
+         "MLE":0.0361900708199108,
+         "UB":0.06796570114998005
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-23.29630186421855,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.11131267735764,
+       "Standard MG94":0.1534208486401429,
+       "dN":0.02027556603901301,
+       "dS":0.5736961397526381,
+       "nonsynonymous":0.01539754722585772,
+       "original name":"Penaeus.chinensis_XM_047626433.1_CARP",
+       "synonymous":0.1380233014142851
+      },
+     "Penaeus_chinensis_XM_047635015_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.03360396953846056,
+         "MLE":0.05395111384334274,
+         "UB":0.08131244493676838
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-0.2172975619032513,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1696004536782884,
+       "Standard MG94":0.3020992291269333,
+       "dN":0.05672419644031564,
+       "dS":1.076629586338638,
+       "nonsynonymous":0.04307714476912858,
+       "original name":"Penaeus.chinensis_XM_047635015.1_CARP",
+       "synonymous":0.2590220843578049
+      },
+     "Penaeus_chinensis_XM_047639886_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.0269205944104913,
+         "MLE":0.04695850777710391,
+         "UB":0.07531638565103561
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-4.814455398016435,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1610910142655175,
+       "Standard MG94":0.2552290298092316,
+       "dN":0.04249757641541382,
+       "dS":0.92671938798969,
+       "nonsynonymous":0.03227325138946823,
+       "original name":"Penaeus.chinensis_XM_047639886.1_CARP",
+       "synonymous":0.2229557784197634
+      },
+     "Penaeus_chinensis_XM_047640338_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.003652489141104241,
+         "MLE":0.01651067954692369,
+         "UB":0.04051981382213874
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-22.3296138595324,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1094931176833014,
+       "Standard MG94":0.1986362346960015,
+       "dN":0.01266762687655556,
+       "dS":0.7856492272872971,
+       "nonsynonymous":0.009619972270860635,
+       "original name":"Penaeus.chinensis_XM_047640338.1_CARP",
+       "synonymous":0.1890162624251406
+      },
+     "Plodia_interpunctella_XM_053744347_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.008775142311704688
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-3.651621457014699,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.0882051994395061,
+       "Standard MG94":0.1365885423335824,
+       "dN":1.316804926239384e-10,
+       "dS":0.5677325398558095,
+       "nonsynonymous":1e-10,
+       "original name":"Plodia.interpunctella_XM_053744347.1_CARP",
+       "synonymous":0.1365885423335824
+      },
+     "Plodia_interpunctella_XM_053760557_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.001101622113205329,
+         "MLE":0.008133738571687985,
+         "UB":0.02489439529563538
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":0.1702291841328435,
+         "LRT":5.157126574347785,
+         "p-value":0.02315116904206671
+        },
+       "Nucleotide GTR":0.1202257121802408,
+       "Standard MG94":0.1886686820195013,
+       "dN":0.006076682284665012,
+       "dS":0.7650233552320833,
+       "nonsynonymous":0.004614717156336277,
+       "original name":"Plodia.interpunctella_XM_053760557.1_CARP",
+       "synonymous":0.1840539648631651
+      },
+     "Portunus_trituberculatus_XM_045246372_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.01486690113159191,
+         "MLE":0.03365988558423845,
+         "UB":0.06186712152413654
+        },
+       "LRT":{
+         "Corrected P-value":0.3135071363076247,
+         "FDR":0.02226613184003016,
+         "LRT":8.901051506392832,
+         "p-value":0.002850064875523861
+        },
+       "Nucleotide GTR":0.1210536908507191,
+       "Standard MG94":0.2146635203206797,
+       "dN":0.02657223542147539,
+       "dS":0.8083767782928063,
+       "nonsynonymous":0.02017932564800018,
+       "original name":"Portunus.trituberculatus_XM_045246372.1_CARP",
+       "synonymous":0.1944841946726793
+      },
+     "Portunus_trituberculatus_XM_045246507_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0.01415255228474662,
+         "UB":0.04397903130139952
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-15.38247292772576,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.09057987249677808,
+       "Standard MG94":0.159912152035475,
+       "dN":0.008802428936477289,
+       "dS":0.6368924972994751,
+       "nonsynonymous":0.006684687124930364,
+       "original name":"Portunus.trituberculatus_XM_045246507.1_CARP",
+       "synonymous":0.1532274649105445
+      },
+     "Portunus_trituberculatus_XM_045255629_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0.002934233413380494,
+         "UB":0.01538610488476643
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-18.31295071612112,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.07547113742584069,
+       "Standard MG94":0.178199226993231,
+       "dN":0.002103396371062712,
+       "dS":0.7340486347423603,
+       "nonsynonymous":0.00159734849798119,
+       "original name":"Portunus.trituberculatus_XM_045255629.1_CARP",
+       "synonymous":0.1766018784952498
+      },
+     "Portunus_trituberculatus_XM_045255778_1_CARP":{
+       "Confidence Intervals":{
+         "LB":6.562844965987338e-06,
+         "MLE":1.082135774771028e-05,
+         "UB":1.648749427686627e-05
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":0.4275878164213535,
+         "LRT":3.405146366210829,
+         "p-value":0.06499334809604573
+        },
+       "Nucleotide GTR":0.1914575231107853,
+       "Standard MG94":1304.320900952799,
+       "dN":0.05729053329963434,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.04350722886741342,
+       "original name":"Portunus.trituberculatus_XM_045255778.1_CARP",
+       "synonymous":1304.277393723933
+      },
+     "Portunus_trituberculatus_XM_045258970_1_CARP":{
+       "Confidence Intervals":{
+         "LB":3.605380184763275e-05,
+         "MLE":4.628130658432103e-05,
+         "UB":5.839791000453866e-05
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":0.8079661963852264,
+         "LRT":2.301193981424149,
+         "p-value":0.1292745914216362
+        },
+       "Nucleotide GTR":0.3872261712153112,
+       "Standard MG94":1304.463467546164,
+       "dN":0.2450229257581529,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.1860738222311372,
+       "original name":"Portunus.trituberculatus_XM_045258970.1_CARP",
+       "synonymous":1304.277393723933
+      },
+     "Portunus_trituberculatus_XM_045260393_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.0005957866360226734,
+         "MLE":0.003790277643455305,
+         "UB":0.01180013726211123
+        },
+       "LRT":{
+         "Corrected P-value":8.438184633252632e-07,
+         "FDR":2.161420244173318e-07,
+         "LRT":33.55813625630981,
+         "p-value":6.916544781354617e-09
+        },
+       "Nucleotide GTR":0.1338109104150285,
+       "Standard MG94":0.3472928585109943,
+       "dN":0.005281451103139027,
+       "dS":1.426857534059708,
+       "nonsynonymous":0.004010807521978319,
+       "original name":"Portunus.trituberculatus_XM_045260393.1_CARP",
+       "synonymous":0.3432820509890159
+      },
+     "Portunus_trituberculatus_XM_045262722_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.003242960996847741,
+         "MLE":0.01484933432403782,
+         "UB":0.03852724234962152
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-17.32344591695437,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1034416568309021,
+       "Standard MG94":0.1579874690524928,
+       "dN":0.009105903119831149,
+       "dS":0.6279345992942864,
+       "nonsynonymous":0.006915149646224646,
+       "original name":"Portunus.trituberculatus_XM_045262722.1_CARP",
+       "synonymous":0.1510723194062682
+      },
+     "Portunus_trituberculatus_XM_045273411_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.01586125041220653,
+         "MLE":0.03385232638245302,
+         "UB":0.06137769145233801
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-4.206688528145605,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1117163535412034,
+       "Standard MG94":0.1992947922023465,
+       "dN":0.02479752475392304,
+       "dS":0.7500983088009806,
+       "nonsynonymous":0.0188315856508385,
+       "original name":"Portunus.trituberculatus_XM_045273411.1_CARP",
+       "synonymous":0.1804632065515082
+      },
+     "Stylopallene_cheilorhynchus_TRINITY_DN13773_c4_g1_i2_CARP":{
+       "Confidence Intervals":{
+         "LB":0.0359496303548861,
+         "MLE":0.05853285704107006,
+         "UB":0.08883600213005262
+        },
+       "LRT":{
+         "Corrected P-value":5.527818456307898e-06,
+         "FDR":9.596907042201213e-07,
+         "LRT":29.8756940921885,
+         "p-value":4.606515380256582e-08
+        },
+       "Nucleotide GTR":0.1784702029070351,
+       "Standard MG94":0.287028580363807,
+       "dN":0.05777176922130672,
+       "dS":1.010681504148423,
+       "nonsynonymous":0.04387268612845719,
+       "original name":"Stylopallene.cheilorhynchus_TRINITY_DN13773_c4_g1_i2_CARP",
+       "synonymous":0.2431558942353495
+      },
+     "Stylopallene_cheilorhynchus_TRINITY_DN2808_c0_g1_i1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.02677035557509277,
+         "MLE":0.04344746759375779,
+         "UB":0.06582463395893086
+        },
+       "LRT":{
+         "Corrected P-value":1.602707979664331e-07,
+         "FDR":8.078165220082312e-08,
+         "LRT":36.82457585418888,
+         "p-value":1.29250643521317e-09
+        },
+       "Nucleotide GTR":0.1833712739218486,
+       "Standard MG94":0.3676716740151224,
+       "dN":0.05718340016417436,
+       "dS":1.347733056066792,
+       "nonsynonymous":0.04342587047231238,
+       "original name":"Stylopallene.cheilorhynchus_TRINITY_DN2808_c0_g1_i1_CARP",
+       "synonymous":0.3242458035428102
+      },
+     "Tachypleus_tridentatus_comp109225_c0_seq2_CARP":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.184182481644714
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-24.45726191938593,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.007485621657099149,
+       "Standard MG94":0.006776203823393924,
+       "dN":1.316804926239384e-10,
+       "dS":0.0281654034921948,
+       "nonsynonymous":1e-10,
+       "original name":"Tachypleus.tridentatus_comp109225_c0_seq2_CARP",
+       "synonymous":0.006776203823393923
+      },
+     "Tanystylum_orbiculare_TRINITY_DN13930_c0_g1_i1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.07471451511545514,
+         "MLE":0.1168249275180398,
+         "UB":0.1723788131830726
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-1.524217707170465,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1589576902124128,
+       "Standard MG94":0.1948547932384931,
+       "dN":0.0679361709248147,
+       "dS":0.5954755279608321,
+       "nonsynonymous":0.05159167434073259,
+       "original name":"Tanystylum.orbiculare_TRINITY_DN13930_c0_g1_i1_CARP",
+       "synonymous":0.1432631188977606
+      },
+     "Tigropus_californicus_XM_059224328_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.04207988638193347,
+         "MLE":0.06509520129289378,
+         "UB":0.09492891429211381
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-22.84786849348893,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1961461600159385,
+       "Standard MG94":0.3602602083987533,
+       "dN":0.07928238888390721,
+       "dS":1.24717135226946,
+       "nonsynonymous":0.06020815027653862,
+       "original name":"Tigropus.californicus_XM_059224328.1_CARP",
+       "synonymous":0.3000520581222154
+      },
+     "Tigropus_californicus_XM_059236724_1_CARP":{
+       "Confidence Intervals":{
+         "LB":8.724261126143474e-06,
+         "MLE":1.372645300252529e-05,
+         "UB":1.996233351477843e-05
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-27.4823604139674,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1982166959355087,
+       "Standard MG94":1304.332580877545,
+       "dN":0.07267071574206449,
+       "dS":5421.25060246247,
+       "nonsynonymous":0.0551871536124961,
+       "original name":"Tigropus.californicus_XM_059236724.1_CARP",
+       "synonymous":1304.277393723933
+      },
+     "Trigoniulus.corallinus_Tco_000022-T1_CARP":{
+       "original name":0
+      },
+     "Trigoniulus.corallinus_Tco_003940-T1_CARP":{
+       "original name":0
+      },
+     "Trigoniulus_corallinus_Tco_000022_T1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.02074881440506399,
+         "MLE":0.03738635045890816,
+         "UB":0.06125225881750374
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-13.06185745076073,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1766425461707976,
+       "Standard MG94":0.2806729405686772,
+       "dN":0.03819217621163912,
+       "dS":1.046067491832108,
+       "nonsynonymous":0.02900367051383289,
+       "synonymous":0.2516692700548441
+      },
+     "Trigoniulus_corallinus_Tco_003940_T1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.06806635276745208,
+         "MLE":0.1041681534249762,
+         "UB":0.1516580861266767
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-16.22892316683283,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1905531237077576,
+       "Standard MG94":0.2111010408776563,
+       "dN":0.06756468106137373,
+       "dS":0.6641759394283933,
+       "nonsynonymous":0.0513095597647324,
+       "synonymous":0.159791481112924
+      },
+     "Vespula_vulgaris_XM_050992235_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.006215008769487078,
+         "MLE":0.01625544191699981,
+         "UB":0.0330509655980519
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-28.00107921860763,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1059631804831136,
+       "Standard MG94":0.2618876197561301,
+       "dN":0.01645549147387341,
+       "dS":1.036598200161699,
+       "nonsynonymous":0.01249652939928472,
+       "original name":"Vespula.vulgaris_XM_050992235.1_CARP",
+       "synonymous":0.2493910903568455
+      },
+     "Vespula_vulgaris_XM_051001955_1_CARP":{
+       "Confidence Intervals":{
+         "LB":0.004486579245135596,
+         "MLE":0.009933422413860766,
+         "UB":0.01863740061607057
+        },
+       "LRT":{
+         "Corrected P-value":1,
+         "FDR":1,
+         "LRT":-11.72716743536148,
+         "p-value":1
+        },
+       "Nucleotide GTR":0.1583219294485985,
+       "Standard MG94":0.5253716360387463,
+       "dN":0.02055407807495952,
+       "dS":2.118836623961114,
+       "nonsynonymous":0.01560905314476547,
+       "original name":"Vespula.vulgaris_XM_051001955.1_CARP",
+       "synonymous":0.509762582893981
+      }
+    },
+   "attributes":{
+     "Confidence Intervals":{
+       "attribute type":"branch attributes",
+       "display order":4
+      },
+     "LRT":{
+       "attribute type":"branch attributes",
+       "display order":5
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Standard MG94":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "dN":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "dS":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "nonsynonymous":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      },
+     "synonymous":{
+       "attribute type":"branch length",
+       "display order":2
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173] 
+      ],
+     "name":"fitter.filter.default"
+    }
+  },
+ "fits":{
+   "Nucleotide GTR":{
+     "AIC-c":45443.46928922518,
+     "Equilibrium frequencies":      [
+[0.2490907478044886],
+      [0.2647032733079038],
+      [0.2520180963363789],
+      [0.2341878825512286] 
+      ],
+     "Log Likelihood":-22586.191352904,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.8515035810381486,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.4991596754190304,
+       "Substitution rate from nucleotide C to nucleotide G":0.7679529841058517,
+       "Substitution rate from nucleotide C to nucleotide T":1.534562209902836,
+       "Substitution rate from nucleotide G to nucleotide T":0.330044867577276
+      },
+     "display order":0,
+     "estimated parameters":135
+    },
+   "Standard MG94":{
+     "AIC-c":36746.0493482193,
+     "Log Likelihood":-18102.69058628711,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.76613830662294,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.7847766194058567,
+       "Substitution rate from nucleotide C to nucleotide G":0.8193755363882792,
+       "Substitution rate from nucleotide C to nucleotide T":0.7194200857445524,
+       "Substitution rate from nucleotide G to nucleotide T":0.3587944281550339
+      },
+     "display order":1,
+     "estimated parameters":264
+    }
+  },
+ "input":{
+   "file name":"/Users/joyezhou/Desktop/aCA/FINALE/HyPhy/evo-rate_analysis/w/Chordate_vs_Arthropod/CARP/Arthropod/cst_CARP_arthropod.txt",
+   "number of sequences":65,
+   "number of sites":174,
+   "partition count":1,
+   "trees":{
+     "0":"(Tanystylum_orbiculare_TRINITY_DN13930_c0_g1_i1_CARP,Stylopallene_cheilorhynchus_TRINITY_DN13773_c4_g1_i2_CARP,(Stylopallene_cheilorhynchus_TRINITY_DN2808_c0_g1_i1_CARP,((((((Dermacentor_andersoni_XM_050183355_1_CARP,Argiope_bruennichi_XM_056074079_1_CARP)Node10,Argiope_bruennichi_XM_056071929_1_CARP)Node9,Argiope_bruennichi_XM_056073927_1_CARP)Node8,(Dermacentor_andersoni_XM_050184009_1_CARP,(Argiope_bruennichi_XM_056069369_1_CARP,(Carcinoscorpius_rotundicauda_comp93952_c7_seq8_CARP,Tachypleus_tridentatus_comp109225_c0_seq2_CARP)Node19)Node17)Node15)Node7,Argiope_bruennichi_XM_056074193_1_CARP)Node6,(((Trigoniulus.corallinus_Tco_003940-T1_CARP,Helicorthomorpha.holstii_Hho_009616-T1_CARP)Node25,(((Lepeophtheirus_salmonis_XM_040713379_1_CARP,Tigropus_californicus_XM_059224328_1_CARP)Node30,((Eurytemora_affinis_Atlantic_Clade__CAH4_CARP,Eurytemora_affinis_Gulf_Clade__CAH4_CARP)Node34,Eurytemora_affinis_Europe_Clade__CAH4_CARP)Node33)Node29,((((Portunus_trituberculatus_XM_045255629_1_CARP,Penaeus_chinensis_XM_047639886_1_CARP)Node41,((((Portunus_trituberculatus_XM_045255778_1_CARP,Penaeus_chinensis_XM_047640338_1_CARP)Node47,((Portunus_trituberculatus_XM_045262722_1_CARP,Portunus_trituberculatus_XM_045273411_1_CARP)Node51,Penaeus_chinensis_XM_047635015_1_CARP)Node50)Node46,Portunus_trituberculatus_XM_045258970_1_CARP)Node45,(Portunus_trituberculatus_XM_045246372_1_CARP,(Portunus_trituberculatus_XM_045246507_1_CARP,Penaeus_chinensis_XM_047622518_1_CARP)Node58)Node56)Node44)Node40,(Daphnia_pulex_XM_046597762_1_CARP,Daphnia_carinata_XM_057521724_1_CARP)Node61)Node39,(Folsomia_candida_XM_035853126_1_CARP,(((((Ischnura_elegans_XM_046538883_1_CARP,Ischnura_elegans_XM_046539321_1_CARP)Node70,(Plodia_interpunctella_XM_053744347_1_CARP,Aricia_agestis_XM_042117247_1_CARP)Node73)Node69,Drosophila_simulans_XM_016173672_2_CARP)Node68,(Adelges_cooleyi_XM_050582687_1_CARP,Aethina_tumida_XM_020010789_2_CARP)Node77)Node67,(Vespula_vulgaris_XM_051001955_1_CARP,Athalia_rosae_XM_020855386_1_CARP)Node80)Node66)Node64)Node38)Node28)Node24,((Trigoniulus.corallinus_Tco_000022-T1_CARP,Helicorthomorpha.holstii_Hho_002072-T1_CARP)Node84,((((Lepeophtheirus_salmonis_XM_040721531_1_CARP,Tigropus_californicus_XM_059236724_1_CARP)Node90,(Eurytemora_affinis_Gulf_Clade__CAH2_CARP,Eurytemora_affinis_Atlantic_Clade__CAH2_CARP,Eurytemora_affinis_Europe_Clade__CAH2_CARP)Node93)Node89,(((Portunus_trituberculatus_XM_045260393_1_CARP,Penaeus_chinensis_XM_047626433_1_CARP)Node100,(Penaeus_chinensis_XM_047624972_1_CARP,Penaeus_chinensis_XM_047624945_1_CARP)Node103)Node99,(Daphnia_pulex_XM_046594733_1_CARP,(Daphnia_carinata_XM_057512002_1_CARP,Daphnia_carinata_XM_057512005_1_CARP)Node109)Node107,((Ischnura_elegans_XM_046538715_1_CARP,((Adelges_cooleyi_XM_050585766_1_CARP,Aethina_tumida_XM_049970166_1_CARP)Node116,((Plodia_interpunctella_XM_053760557_1_CARP,Aricia_agestis_XM_042113248_1_CARP)Node120,Aricia_agestis_XM_042116792_1_CARP)Node119)Node115)Node113,(Vespula_vulgaris_XM_050992235_1_CARP,Athalia_rosae_XM_012406171_2_CARP)Node124)Node112)Node98)Node88,Folsomia_candida_XM_022098501_2_CARP)Node87)Node83)Node23)Node5)Node3)"
+    }
+  },
+ "tested":{
+   "0":{
+     "Adelges_cooleyi_XM_050582687_1_CARP":"test",
+     "Adelges_cooleyi_XM_050585766_1_CARP":"test",
+     "Aethina_tumida_XM_020010789_2_CARP":"test",
+     "Aethina_tumida_XM_049970166_1_CARP":"test",
+     "Argiope_bruennichi_XM_056069369_1_CARP":"test",
+     "Argiope_bruennichi_XM_056071929_1_CARP":"test",
+     "Argiope_bruennichi_XM_056073927_1_CARP":"test",
+     "Argiope_bruennichi_XM_056074079_1_CARP":"test",
+     "Argiope_bruennichi_XM_056074193_1_CARP":"test",
+     "Aricia_agestis_XM_042113248_1_CARP":"test",
+     "Aricia_agestis_XM_042116792_1_CARP":"test",
+     "Aricia_agestis_XM_042117247_1_CARP":"test",
+     "Athalia_rosae_XM_012406171_2_CARP":"test",
+     "Athalia_rosae_XM_020855386_1_CARP":"test",
+     "Carcinoscorpius_rotundicauda_comp93952_c7_seq8_CARP":"test",
+     "Daphnia_carinata_XM_057512002_1_CARP":"test",
+     "Daphnia_carinata_XM_057512005_1_CARP":"test",
+     "Daphnia_carinata_XM_057521724_1_CARP":"test",
+     "Daphnia_pulex_XM_046594733_1_CARP":"test",
+     "Daphnia_pulex_XM_046597762_1_CARP":"test",
+     "Dermacentor_andersoni_XM_050183355_1_CARP":"test",
+     "Dermacentor_andersoni_XM_050184009_1_CARP":"test",
+     "Drosophila_simulans_XM_016173672_2_CARP":"test",
+     "Eurytemora_affinis_Atlantic_Clade__CAH2_CARP":"test",
+     "Eurytemora_affinis_Atlantic_Clade__CAH4_CARP":"test",
+     "Eurytemora_affinis_Europe_Clade__CAH2_CARP":"test",
+     "Eurytemora_affinis_Europe_Clade__CAH4_CARP":"test",
+     "Eurytemora_affinis_Gulf_Clade__CAH2_CARP":"test",
+     "Eurytemora_affinis_Gulf_Clade__CAH4_CARP":"test",
+     "Folsomia_candida_XM_022098501_2_CARP":"test",
+     "Folsomia_candida_XM_035853126_1_CARP":"test",
+     "Helicorthomorpha.holstii_Hho_002072-T1_CARP":"test",
+     "Helicorthomorpha.holstii_Hho_009616-T1_CARP":"test",
+     "Ischnura_elegans_XM_046538715_1_CARP":"test",
+     "Ischnura_elegans_XM_046538883_1_CARP":"test",
+     "Ischnura_elegans_XM_046539321_1_CARP":"test",
+     "Lepeophtheirus_salmonis_XM_040713379_1_CARP":"test",
+     "Lepeophtheirus_salmonis_XM_040721531_1_CARP":"test",
+     "Node10":"test",
+     "Node100":"test",
+     "Node103":"test",
+     "Node107":"test",
+     "Node109":"test",
+     "Node112":"test",
+     "Node113":"test",
+     "Node115":"test",
+     "Node116":"test",
+     "Node119":"test",
+     "Node120":"test",
+     "Node124":"test",
+     "Node15":"test",
+     "Node17":"test",
+     "Node19":"test",
+     "Node23":"test",
+     "Node24":"test",
+     "Node25":"test",
+     "Node28":"test",
+     "Node29":"test",
+     "Node3":"test",
+     "Node30":"test",
+     "Node33":"test",
+     "Node34":"test",
+     "Node38":"test",
+     "Node39":"test",
+     "Node40":"test",
+     "Node41":"test",
+     "Node44":"test",
+     "Node45":"test",
+     "Node46":"test",
+     "Node47":"test",
+     "Node5":"test",
+     "Node50":"test",
+     "Node51":"test",
+     "Node56":"test",
+     "Node58":"test",
+     "Node6":"test",
+     "Node61":"test",
+     "Node64":"test",
+     "Node66":"test",
+     "Node67":"test",
+     "Node68":"test",
+     "Node69":"test",
+     "Node7":"test",
+     "Node70":"test",
+     "Node73":"test",
+     "Node77":"test",
+     "Node8":"test",
+     "Node80":"test",
+     "Node83":"test",
+     "Node84":"test",
+     "Node87":"test",
+     "Node88":"test",
+     "Node89":"test",
+     "Node9":"test",
+     "Node90":"test",
+     "Node93":"test",
+     "Node98":"test",
+     "Node99":"test",
+     "Penaeus_chinensis_XM_047622518_1_CARP":"test",
+     "Penaeus_chinensis_XM_047624945_1_CARP":"test",
+     "Penaeus_chinensis_XM_047624972_1_CARP":"test",
+     "Penaeus_chinensis_XM_047626433_1_CARP":"test",
+     "Penaeus_chinensis_XM_047635015_1_CARP":"test",
+     "Penaeus_chinensis_XM_047639886_1_CARP":"test",
+     "Penaeus_chinensis_XM_047640338_1_CARP":"test",
+     "Plodia_interpunctella_XM_053744347_1_CARP":"test",
+     "Plodia_interpunctella_XM_053760557_1_CARP":"test",
+     "Portunus_trituberculatus_XM_045246372_1_CARP":"test",
+     "Portunus_trituberculatus_XM_045246507_1_CARP":"test",
+     "Portunus_trituberculatus_XM_045255629_1_CARP":"test",
+     "Portunus_trituberculatus_XM_045255778_1_CARP":"test",
+     "Portunus_trituberculatus_XM_045258970_1_CARP":"test",
+     "Portunus_trituberculatus_XM_045260393_1_CARP":"test",
+     "Portunus_trituberculatus_XM_045262722_1_CARP":"test",
+     "Portunus_trituberculatus_XM_045273411_1_CARP":"test",
+     "Stylopallene_cheilorhynchus_TRINITY_DN13773_c4_g1_i2_CARP":"test",
+     "Stylopallene_cheilorhynchus_TRINITY_DN2808_c0_g1_i1_CARP":"test",
+     "Tachypleus_tridentatus_comp109225_c0_seq2_CARP":"test",
+     "Tanystylum_orbiculare_TRINITY_DN13930_c0_g1_i1_CARP":"test",
+     "Tigropus_californicus_XM_059224328_1_CARP":"test",
+     "Tigropus_californicus_XM_059236724_1_CARP":"test",
+     "Trigoniulus.corallinus_Tco_000022-T1_CARP":"test",
+     "Trigoniulus.corallinus_Tco_003940-T1_CARP":"test",
+     "Vespula_vulgaris_XM_050992235_1_CARP":"test",
+     "Vespula_vulgaris_XM_051001955_1_CARP":"test"
+    }
+  },
+ "timers":{
+   "Overall":{
+     "order":0,
+     "timer":7964
+    },
+   "Standard MG94":{
+     "order":null,
+     "timer":7963
+    }
+  }
+}
