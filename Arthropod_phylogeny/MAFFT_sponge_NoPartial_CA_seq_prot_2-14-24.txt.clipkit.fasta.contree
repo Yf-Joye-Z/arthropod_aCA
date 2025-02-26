@@ -1,0 +1,400 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=298;
+	taxlabels
+	'Adelges.cooleyi_XM_050566195.1_'
+	'Adelges.cooleyi_XM_050566692.1_'
+	'Adelges.cooleyi_XM_050582687.1_CARP'
+	'Adelges.cooleyi_XM_050584472.1_'
+	'Adelges.cooleyi_XM_050584605.1_'
+	'Adelges.cooleyi_XM_050585766.1_CARP'
+	'Aethina.tumida_XM_020010789.2_CARP'
+	'Aethina.tumida_XM_020011168.2_'
+	'Aethina.tumida_XM_020011169.2_'
+	'Aethina.tumida_XM_020016762.2_'
+	'Aethina.tumida_XM_020023900.2_'
+	'Aethina.tumida_XM_020024990.2_'
+	'Aethina.tumida_XM_049964827.1_'
+	'Aethina.tumida_XM_049970166.1_CARP'
+	'Amphimedon.queenslandica_XM_003383369.3_OUTGROUP'
+	'Amphimedon.queenslandica_XM_003386575.3_OUTGROUP'
+	'Amphimedon.queenslandica_XM_003388939.2_OUTGROUP'
+	'Amphimedon.queenslandica_XM_020000513.1_OUTGROUP'
+	'Aphonopelma.hentzi_TRINITY_DN1822_c0_g1_i1_'
+	'Aphonopelma.hentzi_TRINITY_DN2402_c0_g1_i1_'
+	'Aphonopelma.hentzi_TRINITY_DN353_c2_g1_i1_'
+	'Aphonopelma.hentzi_TRINITY_DN791_c0_g1_i2_'
+	'Aphonopelma.hentzi_TRINITY_DN791_c0_g1_i4_'
+	'Argiope.bruennichi_XM_056068914.1_'
+	'Argiope.bruennichi_XM_056069369.1_CARP'
+	'Argiope.bruennichi_XM_056071929.1_CARP'
+	'Argiope.bruennichi_XM_056073927.1_CARP'
+	'Argiope.bruennichi_XM_056074079.1_CARP'
+	'Argiope.bruennichi_XM_056074193.1_CARP'
+	'Argiope.bruennichi_XM_056076976.1_'
+	'Argiope.bruennichi_XM_056077625.1_'
+	'Argiope.bruennichi_XM_056088242.1_'
+	'Argiope.bruennichi_XM_056089251.1_'
+	'Argiope.bruennichi_XM_056089253.1_'
+	'Argiope.bruennichi_XM_056089258.1_'
+	'Argiope.bruennichi_XM_056089259.1_'
+	'Argiope.bruennichi_XM_056089479.1_'
+	'Aricia.agestis_XM_042113248.1_CARP'
+	'Aricia.agestis_XM_042114809.1_'
+	'Aricia.agestis_XM_042114830.1_'
+	'Aricia.agestis_XM_042114903.1_'
+	'Aricia.agestis_XM_042115320.1_'
+	'Aricia.agestis_XM_042116792.1_CARP'
+	'Aricia.agestis_XM_042117247.1_CARP'
+	'Aricia.agestis_XM_042119687.1_'
+	'Athalia.rosae_XM_012397450.2_'
+	'Athalia.rosae_XM_012398378.2_'
+	'Athalia.rosae_XM_012398401.1_'
+	'Athalia.rosae_XM_012398662.2_'
+	'Athalia.rosae_XM_012403761.2_'
+	'Athalia.rosae_XM_012406171.2_CARP'
+	'Athalia.rosae_XM_012411217.3_'
+	'Athalia.rosae_XM_020855386.1_CARP'
+	'Calanus.finmarchicus_c104000_g3_i7_'
+	'Calanus.finmarchicus_c92173_g2_i2_'
+	'Calanus.finmarchicus_c98176_g1_i1_'
+	'Carcinoscorpius.rotundicauda_comp69506_c1_seq1_'
+	'Carcinoscorpius.rotundicauda_comp71475_c0_seq1_'
+	'Carcinoscorpius.rotundicauda_comp86796_c0_seq3_'
+	'Carcinoscorpius.rotundicauda_comp92422_c0_seq2_'
+	'Carcinoscorpius.rotundicauda_comp92923_c1_seq5_'
+	'Carcinoscorpius.rotundicauda_comp93952_c7_seq8_CARP'
+	'Carcinoscorpius.rotundicauda_comp95019_c0_seq1_'
+	'Centruroides.vittatus_GIPT01002438.1_'
+	'Centruroides.vittatus_GIPT01002578.1_'
+	'Daphnia.carinata_XM_057511258.1_'
+	'Daphnia.carinata_XM_057511265.1_'
+	'Daphnia.carinata_XM_057511267.1_'
+	'Daphnia.carinata_XM_057511344.1_'
+	'Daphnia.carinata_XM_057511346.1_'
+	'Daphnia.carinata_XM_057511347.1_'
+	'Daphnia.carinata_XM_057511503.1_'
+	'Daphnia.carinata_XM_057511992.1_'
+	'Daphnia.carinata_XM_057511993.1_'
+	'Daphnia.carinata_XM_057512002.1_CARP'
+	'Daphnia.carinata_XM_057512005.1_CARP'
+	'Daphnia.carinata_XM_057512105.1_'
+	'Daphnia.carinata_XM_057516208.1_'
+	'Daphnia.carinata_XM_057520454.1_'
+	'Daphnia.carinata_XM_057521362.1_'
+	'Daphnia.carinata_XM_057521724.1_CARP'
+	'Daphnia.carinata_XM_057523035.1_'
+	'Daphnia.pulex_XM_046585175.1_'
+	'Daphnia.pulex_XM_046586478.1_'
+	'Daphnia.pulex_XM_046588876.1_'
+	'Daphnia.pulex_XM_046591744.1_'
+	'Daphnia.pulex_XM_046593518.1_'
+	'Daphnia.pulex_XM_046593523.1_'
+	'Daphnia.pulex_XM_046593524.1_'
+	'Daphnia.pulex_XM_046593525.1_'
+	'Daphnia.pulex_XM_046593538.1_'
+	'Daphnia.pulex_XM_046593540.1_'
+	'Daphnia.pulex_XM_046593547.1_'
+	'Daphnia.pulex_XM_046593548.1_'
+	'Daphnia.pulex_XM_046593803.1_'
+	'Daphnia.pulex_XM_046593811.1_'
+	'Daphnia.pulex_XM_046593821.1_'
+	'Daphnia.pulex_XM_046593822.1_'
+	'Daphnia.pulex_XM_046593827.1_'
+	'Daphnia.pulex_XM_046594733.1_CARP'
+	'Daphnia.pulex_XM_046597762.1_CARP'
+	'Dermacentor.andersoni_XM_050166906.1_'
+	'Dermacentor.andersoni_XM_050166915.1_'
+	'Dermacentor.andersoni_XM_050169452.1_'
+	'Dermacentor.andersoni_XM_050183355.1_CARP'
+	'Dermacentor.andersoni_XM_050184009.1_CARP'
+	'Dermacentor.andersoni_XM_050189592.1_'
+	'Dermacentor.andersoni_XM_050190017.1_'
+	'Dermacentor.andersoni_XM_050190598.1_'
+	'Dermacentor.andersoni_XM_050193158.1_'
+	'Dermacentor.andersoni_XM_055061825.1_'
+	'Drosophila.simulans_XM_002079344.4_'
+	'Drosophila.simulans_XM_002082357.4_'
+	'Drosophila.simulans_XM_002084577.4_'
+	'Drosophila.simulans_XM_002103981.4_'
+	'Drosophila.simulans_XM_002105091.3_'
+	'Drosophila.simulans_XM_002105571.3_'
+	'Drosophila.simulans_XM_016173635.3_'
+	'Drosophila.simulans_XM_016173672.2_CARP'
+	'Drosophila.simulans_XM_016177891.3_'
+	'Drosophila.simulans_XM_016177892.3_'
+	'Drosophila.simulans_XM_039295141.2_'
+	'Drosophila.simulans_XM_039295397.1_'
+	'Eupolybothrus.cavernicolus_TRINITY_DN13543_c0_g2_i1_len905_'
+	'Eupolybothrus.cavernicolus_TRINITY_DN16679_c0_g1_i1_len1641_'
+	'Eupolybothrus.cavernicolus_TRINITY_DN19382_c0_g1_i1_len953_'
+	'Eupolybothrus.cavernicolus_TRINITY_DN19382_c0_g2_i1_len935_'
+	'Eupolybothrus.cavernicolus_TRINITY_DN77940_c0_g1_i1_len1487_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH10_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH11_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH12_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH14_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH2_CARP'
+	'Eurytemora.affinis_Atlantic.Clade__CAH4_CARP'
+	'Eurytemora.affinis_Atlantic.Clade__CAH5_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH7_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH8_'
+	'Eurytemora.affinis_Atlantic.Clade__CAH9_'
+	'Eurytemora.affinis_Europe.Clade__CAH11_'
+	'Eurytemora.affinis_Europe.Clade__CAH12_'
+	'Eurytemora.affinis_Europe.Clade__CAH14_'
+	'Eurytemora.affinis_Europe.Clade__CAH2_CARP'
+	'Eurytemora.affinis_Europe.Clade__CAH4_CARP'
+	'Eurytemora.affinis_Europe.Clade__CAH5_'
+	'Eurytemora.affinis_Europe.Clade__CAH7_'
+	'Eurytemora.affinis_Europe.Clade__CAH8_'
+	'Eurytemora.affinis_Gulf.Clade__CAH10_'
+	'Eurytemora.affinis_Gulf.Clade__CAH11_'
+	'Eurytemora.affinis_Gulf.Clade__CAH12_'
+	'Eurytemora.affinis_Gulf.Clade__CAH14_'
+	'Eurytemora.affinis_Gulf.Clade__CAH1_'
+	'Eurytemora.affinis_Gulf.Clade__CAH2_CARP'
+	'Eurytemora.affinis_Gulf.Clade__CAH4_CARP'
+	'Eurytemora.affinis_Gulf.Clade__CAH5_'
+	'Eurytemora.affinis_Gulf.Clade__CAH7_'
+	'Eurytemora.affinis_Gulf.Clade__CAH8_'
+	'Eurytemora.affinis_Gulf.Clade__CAH9_'
+	'Folsomia.candida_XM_022087504.2_'
+	'Folsomia.candida_XM_022089714.2_'
+	'Folsomia.candida_XM_022091658.2_'
+	'Folsomia.candida_XM_022093613.2_'
+	'Folsomia.candida_XM_022096997.2_'
+	'Folsomia.candida_XM_022098501.2_CARP'
+	'Folsomia.candida_XM_022106245.2_'
+	'Folsomia.candida_XM_022106606.2_'
+	'Folsomia.candida_XM_022107347.2_'
+	'Folsomia.candida_XM_022107594.2_'
+	'Folsomia.candida_XM_022112430.2_'
+	'Folsomia.candida_XM_035853126.1_CARP'
+	'Folsomia.candida_XM_035856128.1_'
+	'Folsomia.candida_XM_035856591.1_'
+	'Folsomia.candida_XM_035857037.1_'
+	'Helicorthomorpha.holstii_Hho_002072-T1_CARP'
+	'Helicorthomorpha.holstii_Hho_002916-T1_'
+	'Helicorthomorpha.holstii_Hho_003785-T1_'
+	'Helicorthomorpha.holstii_Hho_005226-T1_'
+	'Helicorthomorpha.holstii_Hho_009616-T1_CARP'
+	'Helicorthomorpha.holstii_Hho_009670-T1_'
+	'Helicorthomorpha.holstii_Hho_015627-T1_'
+	'Helicorthomorpha.holstii_Hho_016196-T1_'
+	'Helicorthomorpha.holstii_Hho_016197-T1_'
+	'Helicorthomorpha.holstii_Hho_016507-T1_'
+	'Helicorthomorpha.holstii_Hho_019740-T1_'
+	'Helicorthomorpha.holstii_Hho_022190-T1_'
+	'Helicorthomorpha.holstii_Hho_022191-T1_'
+	'Helicorthomorpha.holstii_Hho_022192-T1_'
+	'Ischnura.elegans_XM_046526695.1_'
+	'Ischnura.elegans_XM_046528811.1_'
+	'Ischnura.elegans_XM_046532448.1_'
+	'Ischnura.elegans_XM_046534946.1_'
+	'Ischnura.elegans_XM_046535607.1_'
+	'Ischnura.elegans_XM_046538715.1_CARP'
+	'Ischnura.elegans_XM_046538883.1_CARP'
+	'Ischnura.elegans_XM_046539321.1_CARP'
+	'Ischnura.elegans_XM_046546524.1_'
+	'Ischnura.elegans_XM_046546891.1_'
+	'Ischnura.elegans_XM_046546894.1_'
+	'Ischnura.elegans_XM_046546895.1_'
+	'Lepeophtheirus.salmonis_XM_040710223.1_'
+	'Lepeophtheirus.salmonis_XM_040713379.1_CARP'
+	'Lepeophtheirus.salmonis_XM_040717313.1_'
+	'Lepeophtheirus.salmonis_XM_040718349.1_'
+	'Lepeophtheirus.salmonis_XM_040718412.1_'
+	'Lepeophtheirus.salmonis_XM_040718628.1_'
+	'Lepeophtheirus.salmonis_XM_040721531.1_CARP'
+	'Lepeophtheirus.salmonis_XM_040723142.1_'
+	'Lepeophtheirus.salmonis_XM_040723874.1_'
+	'Lepeophtheirus.salmonis_XM_040723895.1_'
+	'Lepeophtheirus.salmonis_XM_040724039.1_'
+	'Penaeus.chinensis_XM_047618131.1_'
+	'Penaeus.chinensis_XM_047619679.1_'
+	'Penaeus.chinensis_XM_047622518.1_CARP'
+	'Penaeus.chinensis_XM_047624945.1_CARP'
+	'Penaeus.chinensis_XM_047624972.1_CARP'
+	'Penaeus.chinensis_XM_047626433.1_CARP'
+	'Penaeus.chinensis_XM_047626523.1_'
+	'Penaeus.chinensis_XM_047626524.1_'
+	'Penaeus.chinensis_XM_047626525.1_'
+	'Penaeus.chinensis_XM_047626846.1_'
+	'Penaeus.chinensis_XM_047635015.1_CARP'
+	'Penaeus.chinensis_XM_047639886.1_CARP'
+	'Penaeus.chinensis_XM_047640206.1_'
+	'Penaeus.chinensis_XM_047640338.1_CARP'
+	'Plodia.interpunctella_XM_053744347.1_CARP'
+	'Plodia.interpunctella_XM_053747575.1_'
+	'Plodia.interpunctella_XM_053747610.1_'
+	'Plodia.interpunctella_XM_053747831.1_'
+	'Plodia.interpunctella_XM_053747889.1_'
+	'Plodia.interpunctella_XM_053747902.1_'
+	'Plodia.interpunctella_XM_053749729.1_'
+	'Plodia.interpunctella_XM_053749846.1_'
+	'Plodia.interpunctella_XM_053755760.1_'
+	'Plodia.interpunctella_XM_053760557.1_CARP'
+	'Plodia.interpunctella_XM_053768658.1_'
+	'Portunus.trituberculatus_XM_045246372.1_CARP'
+	'Portunus.trituberculatus_XM_045246507.1_CARP'
+	'Portunus.trituberculatus_XM_045246929.1_'
+	'Portunus.trituberculatus_XM_045252130.1_'
+	'Portunus.trituberculatus_XM_045252186.1_'
+	'Portunus.trituberculatus_XM_045255629.1_CARP'
+	'Portunus.trituberculatus_XM_045255778.1_CARP'
+	'Portunus.trituberculatus_XM_045258970.1_CARP'
+	'Portunus.trituberculatus_XM_045260393.1_CARP'
+	'Portunus.trituberculatus_XM_045262722.1_CARP'
+	'Portunus.trituberculatus_XM_045268171.1_'
+	'Portunus.trituberculatus_XM_045269853.1_'
+	'Portunus.trituberculatus_XM_045270361.1_'
+	'Portunus.trituberculatus_XM_045273411.1_CARP'
+	'Stylopallene.cheilorhynchus_TRINITY_DN13722_c7_g1_i3'
+	'Stylopallene.cheilorhynchus_TRINITY_DN13773_c4_g1_i2_CARP'
+	'Stylopallene.cheilorhynchus_TRINITY_DN15444_c4_g4_i4_'
+	'Stylopallene.cheilorhynchus_TRINITY_DN2808_c0_g1_i1_CARP'
+	'Stylopallene.cheilorhynchus_TRINITY_DN28427_c0_g1_i1_'
+	'Tachypleus.tridentatus_comp101429_c0_seq1_'
+	'Tachypleus.tridentatus_comp107314_c0_seq2'
+	'Tachypleus.tridentatus_comp109225_c0_seq2_CARP'
+	'Tachypleus.tridentatus_comp111601_c0_seq2_'
+	'Tachypleus.tridentatus_comp66693_c0_seq1_'
+	'Tanystylum.orbiculare_TRINITY_DN11158_c0_g1_i1_'
+	'Tanystylum.orbiculare_TRINITY_DN13930_c0_g1_i1_CARP'
+	'Tanystylum.orbiculare_TRINITY_DN7385_c0_g1_i2_'
+	'Thereuonema.tuberculata_Ttu_005949-T1_'
+	'Thereuonema.tuberculata_Ttu_006239-T1_'
+	'Thereuonema.tuberculata_Ttu_017529-T1_'
+	'Thereuonema.tuberculata_Ttu_029673-T1_'
+	'Thereuonema.tuberculata_Ttu_036490-T1_'
+	'Thereuonema.tuberculata_Ttu_045926-T1_'
+	'Thereuonema.tuberculata_Ttu_045955-T1_'
+	'Tigropus.californicus_XM_059224328.1_CARP'
+	'Tigropus.californicus_XM_059229187.1_'
+	'Tigropus.californicus_XM_059229244.1_'
+	'Tigropus.californicus_XM_059229444.1_'
+	'Tigropus.californicus_XM_059231147.1_'
+	'Tigropus.californicus_XM_059232372.1_'
+	'Tigropus.californicus_XM_059236724.1_CARP'
+	'Tigropus.californicus_XM_059236821.1_'
+	'Tigropus.californicus_XM_059237671.1_'
+	'Tigropus.californicus_XM_059238242.1_'
+	'Tigropus.californicus_XM_059239740.1_'
+	'Tigropus.californicus_XM_059242007.1_'
+	'Tigropus.californicus_XM_059243229.1_'
+	'Trigoniulus.corallinus_Tco_000022-T1_CARP'
+	'Trigoniulus.corallinus_Tco_001775-T1_'
+	'Trigoniulus.corallinus_Tco_003940-T1_CARP'
+	'Trigoniulus.corallinus_Tco_008255-T1_'
+	'Trigoniulus.corallinus_Tco_014703-T1_'
+	'Trigoniulus.corallinus_Tco_015463-T1_'
+	'Trigoniulus.corallinus_Tco_015738-T1_'
+	'Trigoniulus.corallinus_Tco_021555-T1_'
+	'Vespula.vulgaris_XM_050992235.1_CARP'
+	'Vespula.vulgaris_XM_050997928.1_'
+	'Vespula.vulgaris_XM_051001955.1_CARP'
+	'Vespula.vulgaris_XM_051004688.1_'
+	'Vespula.vulgaris_XM_051004690.1_'
+	'Vespula.vulgaris_XM_051004691.1_'
+	'Vespula.vulgaris_XM_051009008.1_'
+	'Vespula.vulgaris_XM_051011073.1_'
+	'Vespula.vulgaris_XM_051013535.1_'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((('Tanystylum.orbiculare_TRINITY_DN11158_c0_g1_i1_':1.237028,'Stylopallene.cheilorhynchus_TRINITY_DN28427_c0_g1_i1_':0.699542)[&bootstrap=89]:0.147604,'Stylopallene.cheilorhynchus_TRINITY_DN13722_c7_g1_i3':0.609395)[&bootstrap=100]:0.656558,('Centruroides.vittatus_GIPT01002578.1_':0.782941,('Aphonopelma.hentzi_TRINITY_DN353_c2_g1_i1_':0.655245,'Argiope.bruennichi_XM_056076976.1_':0.455977)[&bootstrap=100]:0.361271)[&bootstrap=99]:0.222371)[&bootstrap=97]:0.18041,(('Carcinoscorpius.rotundicauda_comp95019_c0_seq1_':0.034687,'Tachypleus.tridentatus_comp66693_c0_seq1_':0.020317)[&bootstrap=100]:0.239732,('Carcinoscorpius.rotundicauda_comp86796_c0_seq3_':0.056904,'Tachypleus.tridentatus_comp101429_c0_seq1_':0.013675)[&bootstrap=100]:0.400612)[&bootstrap=100]:0.75556)[&bootstrap=99]:0.238728,('Dermacentor.andersoni_XM_050166906.1_':1.631502,((('Aphonopelma.hentzi_TRINITY_DN791_c0_g1_i4_':0.654384,'Aphonopelma.hentzi_TRINITY_DN2402_c0_g1_i1_':0.813685)[&bootstrap=100]:0.322189,('Argiope.bruennichi_XM_056089253.1_':0.974376,(('Argiope.bruennichi_XM_056089479.1_':0.436891,'Argiope.bruennichi_XM_056089251.1_':0.629587)[&bootstrap=100]:0.29283,'Argiope.bruennichi_XM_056089258.1_':0.659521)[&bootstrap=100]:0.342572)[&bootstrap=100]:0.316056)[&bootstrap=100]:0.506643,'Argiope.bruennichi_XM_056088242.1_':1.239597)[&bootstrap=98]:0.255286)[&bootstrap=91]:0.139983)[&bootstrap=84]:0.12897,(((((((('Carcinoscorpius.rotundicauda_comp92422_c0_seq2_':0.062603,'Tachypleus.tridentatus_comp107314_c0_seq2':0.199102)[&bootstrap=100]:1.267466,'Thereuonema.tuberculata_Ttu_006239-T1_':0.826764)[&bootstrap=100]:0.379708,'Trigoniulus.corallinus_Tco_008255-T1_':1.307695)[&bootstrap=94]:0.263428,(((('Eupolybothrus.cavernicolus_TRINITY_DN19382_c0_g1_i1_len953_':0.21337,('Eupolybothrus.cavernicolus_TRINITY_DN19382_c0_g2_i1_len935_':0.089132,'Eupolybothrus.cavernicolus_TRINITY_DN13543_c0_g2_i1_len905_':0.351099)[&bootstrap=86]:0.086564)[&bootstrap=100]:0.649812,'Thereuonema.tuberculata_Ttu_029673-T1_':1.15584)[&bootstrap=72]:0.177649,('Thereuonema.tuberculata_Ttu_005949-T1_':1.203201,'Thereuonema.tuberculata_Ttu_036490-T1_':1.913203)[&bootstrap=95]:0.345578)[&bootstrap=38]:0.079839,'Eupolybothrus.cavernicolus_TRINITY_DN16679_c0_g1_i1_len1641_':1.357286)[&bootstrap=94]:0.164914)[&bootstrap=93]:0.129132,(('Ischnura.elegans_XM_046532448.1_':1.224353,'Athalia.rosae_XM_012411217.3_':1.39534)[&bootstrap=55]:0.077403,'Aethina.tumida_XM_020024990.2_':1.446144)[&bootstrap=99]:0.512539)[&bootstrap=29]:0.072446,((((((('Eurytemora.affinis_Atlantic.Clade__CAH8_':0.027646,'Eurytemora.affinis_Gulf.Clade__CAH8_':0.024661)[&bootstrap=100]:0.04815,'Eurytemora.affinis_Europe.Clade__CAH8_':0.094692)[&bootstrap=100]:0.209757,'Eurytemora.affinis_Gulf.Clade__CAH1_':0.347838)[&bootstrap=100]:0.404807,(('Eurytemora.affinis_Atlantic.Clade__CAH9_':0.010183,'Eurytemora.affinis_Gulf.Clade__CAH9_':0.029762)[&bootstrap=100]:0.586747,('Eurytemora.affinis_Atlantic.Clade__CAH10_':0.006374,'Eurytemora.affinis_Gulf.Clade__CAH10_':0.02134)[&bootstrap=100]:0.514895)[&bootstrap=99]:0.127598)[&bootstrap=100]:0.864624,(('Eurytemora.affinis_Atlantic.Clade__CAH14_':0.023643,'Eurytemora.affinis_Gulf.Clade__CAH14_':0.046648)[&bootstrap=80]:0.062453,'Eurytemora.affinis_Europe.Clade__CAH14_':0.058958)[&bootstrap=100]:1.277149)[&bootstrap=100]:0.635702,((((('Daphnia.pulex_XM_046593821.1_':0.346395,(('Daphnia.pulex_XM_046593827.1_':0.341583,'Daphnia.carinata_XM_057511267.1_':0.271214)[&bootstrap=100]:0.138436,'Daphnia.carinata_XM_057511993.1_':0.445598)[&bootstrap=99]:0.097991)[&bootstrap=100]:0.129575,(('Daphnia.pulex_XM_046593811.1_':0.120042,'Daphnia.carinata_XM_057511258.1_':0.240986)[&bootstrap=100]:0.222743,(('Daphnia.pulex_XM_046593822.1_':0.239594,'Daphnia.carinata_XM_057511992.1_':0.15095)[&bootstrap=100]:0.249533,'Daphnia.carinata_XM_057511265.1_':0.369191)[&bootstrap=100]:0.203219)[&bootstrap=100]:0.24072)[&bootstrap=100]:0.207762,'Daphnia.pulex_XM_046593803.1_':0.661333)[&bootstrap=100]:0.30066,((((('Daphnia.pulex_XM_046593538.1_':0.296583,'Daphnia.carinata_XM_057511347.1_':0.370401)[&bootstrap=100]:0.24827,((('Daphnia.pulex_XM_046593524.1_':0.402364,('Daphnia.pulex_XM_046593523.1_':0.15309,'Daphnia.pulex_XM_046593518.1_':0.20944)[&bootstrap=100]:0.329093)[&bootstrap=100]:0.178842,'Daphnia.carinata_XM_057512105.1_':1.009965)[&bootstrap=94]:0.07269,('Daphnia.pulex_XM_046593547.1_':0.076876,'Daphnia.pulex_XM_046593548.1_':0.140613)[&bootstrap=100]:0.763239)[&bootstrap=100]:0.162027)[&bootstrap=100]:0.217117,(('Daphnia.pulex_XM_046593540.1_':0.338246,'Daphnia.carinata_XM_057511346.1_':0.484415)[&bootstrap=100]:0.544668,('Daphnia.pulex_XM_046593525.1_':0.272289,'Daphnia.carinata_XM_057511344.1_':0.269734)[&bootstrap=100]:0.461913)[&bootstrap=95]:0.102807)[&bootstrap=96]:0.173623,'Daphnia.carinata_XM_057511503.1_':0.873878)[&bootstrap=100]:0.31982,'Daphnia.pulex_XM_046591744.1_':1.370973)[&bootstrap=99]:0.19551)[&bootstrap=100]:0.199748,('Daphnia.pulex_XM_046588876.1_':0.089704,'Daphnia.carinata_XM_057523035.1_':0.101637)[&bootstrap=100]:0.85695)[&bootstrap=100]:0.166269)[&bootstrap=57]:0.070217,(('Eurytemora.affinis_Atlantic.Clade__CAH11_':2.0E-6,('Eurytemora.affinis_Gulf.Clade__CAH11_':0.009186,'Eurytemora.affinis_Europe.Clade__CAH11_':0.043708)[&bootstrap=100]:0.032394)[&bootstrap=100]:1.364078,(('Portunus.trituberculatus_XM_045268171.1_':0.48544,'Penaeus.chinensis_XM_047640206.1_':0.251078)[&bootstrap=100]:0.642,(('Penaeus.chinensis_XM_047626846.1_':0.517866,(('Penaeus.chinensis_XM_047626525.1_':0.012337,'Penaeus.chinensis_XM_047626524.1_':0.006426)[&bootstrap=100]:0.151316,'Penaeus.chinensis_XM_047626523.1_':0.213857)[&bootstrap=100]:0.455873)[&bootstrap=100]:0.23316,'Penaeus.chinensis_XM_047618131.1_':1.319001)[&bootstrap=72]:0.186832)[&bootstrap=99]:0.304312)[&bootstrap=71]:0.181207)[&bootstrap=40]:0.100614)[&bootstrap=32]:0.09237,((((((('Lepeophtheirus.salmonis_XM_040723895.1_':0.133077,'Lepeophtheirus.salmonis_XM_040724039.1_':0.155641)[&bootstrap=99]:0.042571,'Lepeophtheirus.salmonis_XM_040723142.1_':0.139309)[&bootstrap=99]:0.252726,'Lepeophtheirus.salmonis_XM_040723874.1_':0.150771)[&bootstrap=100]:0.88535,'Lepeophtheirus.salmonis_XM_040718628.1_':1.249059)[&bootstrap=85]:0.200744,(('Lepeophtheirus.salmonis_XM_040718349.1_':0.024932,'Lepeophtheirus.salmonis_XM_040718412.1_':0.026471)[&bootstrap=100]:0.685126,'Lepeophtheirus.salmonis_XM_040710223.1_':0.691404)[&bootstrap=100]:0.498755)[&bootstrap=83]:0.146044,'Tigropus.californicus_XM_059229244.1_':1.448592)[&bootstrap=72]:0.190798,(('Calanus.finmarchicus_c104000_g3_i7_':1.202379,('Portunus.trituberculatus_XM_045246929.1_':1.291101,'Portunus.trituberculatus_XM_045252130.1_':1.666128)[&bootstrap=100]:0.171037)[&bootstrap=97]:0.194624,('Tigropus.californicus_XM_059229444.1_':1.46844,'Tigropus.californicus_XM_059229187.1_':1.105334)[&bootstrap=92]:0.466659)[&bootstrap=84]:0.059)[&bootstrap=72]:0.08963)[&bootstrap=30]:0.059638,(((('Folsomia.candida_XM_022106606.2_':1.212163,('Folsomia.candida_XM_022091658.2_':0.479382,'Folsomia.candida_XM_035857037.1_':0.792484)[&bootstrap=100]:0.703176)[&bootstrap=100]:0.174057,('Folsomia.candida_XM_022087504.2_':1.022896,'Folsomia.candida_XM_035856591.1_':1.415184)[&bootstrap=86]:0.189937)[&bootstrap=87]:0.255962,'Folsomia.candida_XM_035856128.1_':1.385571)[&bootstrap=70]:0.128833,((('Folsomia.candida_XM_022107594.2_':0.538437,'Folsomia.candida_XM_022106245.2_':0.759429)[&bootstrap=100]:0.360261,'Folsomia.candida_XM_022112430.2_':0.841843)[&bootstrap=100]:0.609909,('Folsomia.candida_XM_022093613.2_':0.736677,'Folsomia.candida_XM_022107347.2_':0.846058)[&bootstrap=100]:0.771966)[&bootstrap=100]:0.534296)[&bootstrap=84]:0.271207)[&bootstrap=86]:0.075921)[&bootstrap=85]:0.05143,(((((((('Dermacentor.andersoni_XM_050189592.1_':0.377787,'Dermacentor.andersoni_XM_050190598.1_':0.281991)[&bootstrap=100]:0.529128,'Dermacentor.andersoni_XM_050190017.1_':1.703551)[&bootstrap=100]:1.160396,'Dermacentor.andersoni_XM_050169452.1_':1.620238)[&bootstrap=97]:0.546335,(('Dermacentor.andersoni_XM_050166915.1_':1.573858,('Tigropus.californicus_XM_059232372.1_':2.095607,'Aethina.tumida_XM_020011169.2_':2.09029)[&bootstrap=97]:0.124044)[&bootstrap=97]:0.09884,((('Thereuonema.tuberculata_Ttu_045955-T1_':0.670832,'Thereuonema.tuberculata_Ttu_045926-T1_':0.381541)[&bootstrap=100]:1.503734,'Thereuonema.tuberculata_Ttu_017529-T1_':1.645073)[&bootstrap=99]:0.216863,'Plodia.interpunctella_XM_053747575.1_':1.839727)[&bootstrap=98]:0.431313)[&bootstrap=94]:0.103341)[&bootstrap=93]:0.133452,((('Trigoniulus.corallinus_Tco_015463-T1_':0.818163,'Trigoniulus.corallinus_Tco_015738-T1_':0.733747)[&bootstrap=99]:0.287841,'Trigoniulus.corallinus_Tco_021555-T1_':0.933293)[&bootstrap=100]:0.638607,(('Helicorthomorpha.holstii_Hho_015627-T1_':1.004327,'Helicorthomorpha.holstii_Hho_019740-T1_':1.369473)[&bootstrap=98]:0.132775,(('Helicorthomorpha.holstii_Hho_003785-T1_':0.653306,'Helicorthomorpha.holstii_Hho_016197-T1_':0.416473)[&bootstrap=98]:0.090953,'Helicorthomorpha.holstii_Hho_016196-T1_':0.375515)[&bootstrap=100]:0.988638)[&bootstrap=92]:0.30163)[&bootstrap=48]:0.162716)[&bootstrap=39]:0.038401,(((('Aphonopelma.hentzi_TRINITY_DN791_c0_g1_i2_':1.705542,('Portunus.trituberculatus_XM_045269853.1_':0.187017,'Portunus.trituberculatus_XM_045270361.1_':0.599615)[&bootstrap=100]:0.811728)[&bootstrap=94]:0.141531,'Folsomia.candida_XM_022089714.2_':2.363343)[&bootstrap=81]:0.049831,(('Ischnura.elegans_XM_046535607.1_':1.00059,('Ischnura.elegans_XM_046546894.1_':0.56418,'Ischnura.elegans_XM_046546524.1_':0.74834)[&bootstrap=100]:0.788441)[&bootstrap=100]:0.5557,((('Ischnura.elegans_XM_046526695.1_':1.104591,'Athalia.rosae_XM_012403761.2_':0.841869)[&bootstrap=99]:0.306543,'Drosophila.simulans_XM_002082357.4_':1.59116)[&bootstrap=100]:0.577203,(('Ischnura.elegans_XM_046546895.1_':1.406901,('Aethina.tumida_XM_020023900.2_':1.081735,('Plodia.interpunctella_XM_053747831.1_':0.441056,'Aricia.agestis_XM_042114903.1_':0.230185)[&bootstrap=100]:0.749313)[&bootstrap=100]:0.553764)[&bootstrap=100]:0.749636,'Athalia.rosae_XM_012398378.2_':1.554998)[&bootstrap=96]:0.116446)[&bootstrap=97]:0.033518)[&bootstrap=92]:0.097687)[&bootstrap=55]:0.146297,((('Argiope.bruennichi_XM_056089259.1_':1.782959,'Helicorthomorpha.holstii_Hho_002916-T1_':1.411077)[&bootstrap=96]:0.037994,('Trigoniulus.corallinus_Tco_001775-T1_':1.226356,((('Helicorthomorpha.holstii_Hho_022190-T1_':0.158086,'Helicorthomorpha.holstii_Hho_022191-T1_':0.142975)[&bootstrap=99]:0.155359,'Helicorthomorpha.holstii_Hho_022192-T1_':0.189529)[&bootstrap=99]:0.385747,'Helicorthomorpha.holstii_Hho_016507-T1_':0.469419)[&bootstrap=100]:0.641775)[&bootstrap=100]:0.688828)[&bootstrap=94]:0.166585,(('Trigoniulus.corallinus_Tco_014703-T1_':1.194833,'Vespula.vulgaris_XM_050997928.1_':1.052464)[&bootstrap=99]:0.396116,(('Eurytemora.affinis_Atlantic.Clade__CAH12_':0.056338,'Eurytemora.affinis_Gulf.Clade__CAH12_':0.046417)[&bootstrap=100]:0.074348,'Eurytemora.affinis_Europe.Clade__CAH12_':0.018104)[&bootstrap=100]:1.65412)[&bootstrap=53]:0.121295)[&bootstrap=52]:0.158561)[&bootstrap=46]:0.031451)[&bootstrap=38]:0.013952,'Drosophila.simulans_XM_002103981.4_':2.062395)[&bootstrap=84]:0.110341,(('Tigropus.californicus_XM_059243229.1_':1.962772,(((('Ischnura.elegans_XM_046534946.1_':0.970965,('Plodia.interpunctella_XM_053747610.1_':0.3227,'Aricia.agestis_XM_042115320.1_':0.167061)[&bootstrap=100]:0.677003)[&bootstrap=99]:0.110216,(('Vespula.vulgaris_XM_051013535.1_':0.328224,'Athalia.rosae_XM_012398662.2_':0.748706)[&bootstrap=100]:0.448864,'Aethina.tumida_XM_049964827.1_':1.121101)[&bootstrap=98]:0.092715)[&bootstrap=100]:0.134295,'Adelges.cooleyi_XM_050566692.1_':1.014538)[&bootstrap=82]:0.170208,'Drosophila.simulans_XM_002084577.4_':1.314783)[&bootstrap=100]:0.392821)[&bootstrap=77]:0.016477,((('Ischnura.elegans_XM_046546891.1_':1.348851,(('Vespula.vulgaris_XM_051004688.1_':1.244683,('Vespula.vulgaris_XM_051004690.1_':0.891622,'Vespula.vulgaris_XM_051004691.1_':1.146881)[&bootstrap=100]:0.245676)[&bootstrap=100]:0.663386,(('Aethina.tumida_XM_020011168.2_':0.683986,'Drosophila.simulans_XM_016173635.3_':0.771638)[&bootstrap=100]:0.474294,('Plodia.interpunctella_XM_053747902.1_':0.260951,'Aricia.agestis_XM_042114809.1_':0.220836)[&bootstrap=100]:1.136126)[&bootstrap=100]:0.364291)[&bootstrap=100]:0.267525)[&bootstrap=100]:0.40886,('Adelges.cooleyi_XM_050584605.1_':0.674379,'Adelges.cooleyi_XM_050584472.1_':0.990184)[&bootstrap=100]:1.035139)[&bootstrap=100]:0.262895,(((('Vespula.vulgaris_XM_051009008.1_':0.43209,'Athalia.rosae_XM_012398401.1_':0.46699)[&bootstrap=100]:0.615896,('Plodia.interpunctella_XM_053747889.1_':0.143562,'Aricia.agestis_XM_042114830.1_':0.073205)[&bootstrap=100]:0.521566)[&bootstrap=100]:0.169929,'Drosophila.simulans_XM_002105091.3_':0.758316)[&bootstrap=100]:0.534294,(((('Drosophila.simulans_XM_016177891.3_':0.944506,'Drosophila.simulans_XM_002105571.3_':0.433422)[&bootstrap=100]:0.397654,'Drosophila.simulans_XM_016177892.3_':0.91133)[&bootstrap=80]:0.237234,'Drosophila.simulans_XM_039295397.1_':1.066665)[&bootstrap=62]:0.239265,'Drosophila.simulans_XM_039295141.2_':1.625646)[&bootstrap=100]:0.360736)[&bootstrap=100]:0.359723)[&bootstrap=88]:0.181599)[&bootstrap=78]:0.03607)[&bootstrap=72]:0.05277):0.066709,'Daphnia.carinata_XM_057516208.1_':1.686835)[&bootstrap=84]:0.139468,(('Helicorthomorpha.holstii_Hho_005226-T1_':1.553601,('Tigropus.californicus_XM_059231147.1_':0.646501,(('Tigropus.californicus_XM_059238242.1_':0.478335,'Tigropus.californicus_XM_059237671.1_':0.446586)[&bootstrap=100]:0.427171,'Tigropus.californicus_XM_059236821.1_':0.66287)[&bootstrap=100]:0.893931)[&bootstrap=100]:0.761445)[&bootstrap=73]:0.099599,(('Plodia.interpunctella_XM_053749846.1_':0.603833,'Plodia.interpunctella_XM_053768658.1_':1.005757)[&bootstrap=100]:0.65695,'Plodia.interpunctella_XM_053749729.1_':1.104651)[&bootstrap=100]:0.496849)[&bootstrap=74]:0.172073)[&bootstrap=73]:0.162725,((('Tanystylum.orbiculare_TRINITY_DN7385_c0_g1_i2_':0.263451,'Stylopallene.cheilorhynchus_TRINITY_DN15444_c4_g4_i4_':0.421608)[&bootstrap=100]:0.840548,(((((((('Dermacentor.andersoni_XM_050193158.1_':0.028432,'Dermacentor.andersoni_XM_055061825.1_':0.022925)[&bootstrap=100]:0.831735,'Argiope.bruennichi_XM_056077625.1_':0.664859)[&bootstrap=99]:0.139796,('Aphonopelma.hentzi_TRINITY_DN1822_c0_g1_i1_':0.420882,'Argiope.bruennichi_XM_056068914.1_':0.724634)[&bootstrap=100]:0.360801)[&bootstrap=99]:0.099868,'Centruroides.vittatus_GIPT01002438.1_':0.856799)[&bootstrap=94]:0.158303,((((('Carcinoscorpius.rotundicauda_comp92923_c1_seq5_':0.038927,'Tachypleus.tridentatus_comp111601_c0_seq2_':0.024681)[&bootstrap=100]:0.275394,'Carcinoscorpius.rotundicauda_comp69506_c1_seq1_':0.275638)[&bootstrap=100]:0.310201,'Carcinoscorpius.rotundicauda_comp71475_c0_seq1_':0.599713)[&bootstrap=99]:0.213983,('Eupolybothrus.cavernicolus_TRINITY_DN77940_c0_g1_i1_len1487_':0.517855,'Helicorthomorpha.holstii_Hho_009670-T1_':0.568275)[&bootstrap=100]:0.258866)[&bootstrap=91]:0.066212,'Folsomia.candida_XM_022096997.2_':0.982541)[&bootstrap=66]:0.077759)[&bootstrap=71]:0.14265,((((('Daphnia.pulex_XM_046586478.1_':0.119151,'Daphnia.carinata_XM_057520454.1_':0.055297)[&bootstrap=100]:0.328242,('Daphnia.pulex_XM_046585175.1_':0.048449,'Daphnia.carinata_XM_057521362.1_':0.085746)[&bootstrap=100]:0.77586)[&bootstrap=100]:0.533066,((('Vespula.vulgaris_XM_051011073.1_':0.12024,'Athalia.rosae_XM_012397450.2_':0.053333)[&bootstrap=100]:0.523219,(('Plodia.interpunctella_XM_053755760.1_':0.23907,'Aricia.agestis_XM_042119687.1_':0.109122)[&bootstrap=100]:0.611695,'Drosophila.simulans_XM_002079344.4_':0.485179)[&bootstrap=98]:0.214448)[&bootstrap=97]:0.126292,'Aethina.tumida_XM_020016762.2_':0.801706)[&bootstrap=97]:0.104668)[&bootstrap=50]:0.087614,'Adelges.cooleyi_XM_050566195.1_':0.77115)[&bootstrap=92]:0.090543,'Ischnura.elegans_XM_046528811.1_':1.057945)[&bootstrap=54]:0.201349)[&bootstrap=36]:0.094673,('Portunus.trituberculatus_XM_045252186.1_':0.282324,'Penaeus.chinensis_XM_047619679.1_':0.298245)[&bootstrap=100]:0.832377)[&bootstrap=86]:0.106817,(('Lepeophtheirus.salmonis_XM_040717313.1_':0.660783,'Tigropus.californicus_XM_059239740.1_':0.730547)[&bootstrap=100]:0.322597,(((((('Eurytemora.affinis_Atlantic.Clade__CAH5_':0.011532,'Eurytemora.affinis_Europe.Clade__CAH5_':0.032907)[&bootstrap=56]:0.010265,'Eurytemora.affinis_Gulf.Clade__CAH5_':0.020982)[&bootstrap=100]:1.250083,'Calanus.finmarchicus_c98176_g1_i1_':0.551152)[&bootstrap=99]:0.180732,'Calanus.finmarchicus_c92173_g2_i2_':0.723649)[&bootstrap=100]:0.209929,('Eurytemora.affinis_Atlantic.Clade__CAH7_':3.0E-6,('Eurytemora.affinis_Gulf.Clade__CAH7_':2.0E-6,'Eurytemora.affinis_Europe.Clade__CAH7_':0.050777)[&bootstrap=94]:0.006164)[&bootstrap=100]:0.705238)[&bootstrap=100]:0.307518,'Tigropus.californicus_XM_059242007.1_':1.074258)[&bootstrap=98]:0.149345)[&bootstrap=100]:0.209864)[&bootstrap=79]:0.128917)[&bootstrap=100]:0.417279,((((((((('Tanystylum.orbiculare_TRINITY_DN13930_c0_g1_i1_CARP':0.491886,'Stylopallene.cheilorhynchus_TRINITY_DN13773_c4_g1_i2_CARP':0.646091)[&bootstrap=94]:0.071028,'Stylopallene.cheilorhynchus_TRINITY_DN2808_c0_g1_i1_CARP':0.621197)[&bootstrap=99]:0.171558,(((('Dermacentor.andersoni_XM_050183355.1_CARP':0.390846,('Argiope.bruennichi_XM_056074079.1_CARP':0.52095,'Argiope.bruennichi_XM_056071929.1_CARP':0.280467)[&bootstrap=85]:0.055918)[&bootstrap=96]:0.090183,'Argiope.bruennichi_XM_056073927.1_CARP':0.423819)[&bootstrap=98]:0.082576,('Dermacentor.andersoni_XM_050184009.1_CARP':0.685406,('Argiope.bruennichi_XM_056069369.1_CARP':0.332236,('Carcinoscorpius.rotundicauda_comp93952_c7_seq8_CARP':0.00584,'Tachypleus.tridentatus_comp109225_c0_seq2_CARP':0.016071)[&bootstrap=100]:0.555648)[&bootstrap=100]:0.091875)[&bootstrap=100]:0.105114)[&bootstrap=97]:0.128994,'Argiope.bruennichi_XM_056074193.1_CARP':0.661642)[&bootstrap=99]:0.066767)[&bootstrap=48]:0.063829,(('Trigoniulus.corallinus_Tco_000022-T1_CARP':0.176941,'Helicorthomorpha.holstii_Hho_002072-T1_CARP':0.204363)[&bootstrap=100]:0.246337,(((('Lepeophtheirus.salmonis_XM_040721531.1_CARP':0.482623,'Tigropus.californicus_XM_059236724.1_CARP':0.59894)[&bootstrap=95]:0.15342,(('Eurytemora.affinis_Atlantic.Clade__CAH2_CARP':2.0E-6,'Eurytemora.affinis_Europe.Clade__CAH2_CARP':0.017921)[&bootstrap=100]:0.004455,'Eurytemora.affinis_Gulf.Clade__CAH2_CARP':2.0E-6)[&bootstrap=100]:0.777286)[&bootstrap=100]:0.469389,'Folsomia.candida_XM_022098501.2_CARP':0.547387)[&bootstrap=84]:0.084784,((('Portunus.trituberculatus_XM_045260393.1_CARP':0.163908,'Penaeus.chinensis_XM_047626433.1_CARP':0.118569)[&bootstrap=99]:0.059986,('Penaeus.chinensis_XM_047624972.1_CARP':0.06472,'Penaeus.chinensis_XM_047624945.1_CARP':0.040133)[&bootstrap=100]:0.106991)[&bootstrap=100]:0.450037,(('Daphnia.pulex_XM_046594733.1_CARP':0.024978,('Daphnia.carinata_XM_057512002.1_CARP':2.0E-6,'Daphnia.carinata_XM_057512005.1_CARP':0.034335)[&bootstrap=100]:0.028192)[&bootstrap=100]:0.462672,((('Ischnura.elegans_XM_046538715.1_CARP':0.16285,'Aethina.tumida_XM_049970166.1_CARP':0.286567)[&bootstrap=99]:0.115251,('Vespula.vulgaris_XM_050992235.1_CARP':0.125545,'Athalia.rosae_XM_012406171.2_CARP':0.095912)[&bootstrap=100]:0.320502)[&bootstrap=92]:0.053525,('Adelges.cooleyi_XM_050585766.1_CARP':0.528213,(('Plodia.interpunctella_XM_053760557.1_CARP':0.031423,'Aricia.agestis_XM_042113248.1_CARP':0.029054)[&bootstrap=100]:0.217812,'Aricia.agestis_XM_042116792.1_CARP':0.843606)[&bootstrap=99]:0.16645)[&bootstrap=96]:0.071199)[&bootstrap=94]:0.117672)[&bootstrap=80]:0.017922)[&bootstrap=94]:0.060649)[&bootstrap=100]:0.19497)[&bootstrap=73]:0.082272)[&bootstrap=74]:0.073872,('Trigoniulus.corallinus_Tco_003940-T1_CARP':0.398999,'Helicorthomorpha.holstii_Hho_009616-T1_CARP':0.33303)[&bootstrap=100]:0.137545)[&bootstrap=94]:0.084721,('Folsomia.candida_XM_035853126.1_CARP':0.473874,(((('Ischnura.elegans_XM_046538883.1_CARP':0.084368,'Ischnura.elegans_XM_046539321.1_CARP':0.142377)[&bootstrap=100]:0.217123,'Drosophila.simulans_XM_016173672.2_CARP':0.311852)[&bootstrap=100]:0.063033,('Plodia.interpunctella_XM_053744347.1_CARP':0.028566,'Aricia.agestis_XM_042117247.1_CARP':0.040695)[&bootstrap=100]:0.215307)[&bootstrap=99]:0.054105,(('Adelges.cooleyi_XM_050582687.1_CARP':0.444459,('Vespula.vulgaris_XM_051001955.1_CARP':0.246168,'Athalia.rosae_XM_020855386.1_CARP':0.151313)[&bootstrap=100]:0.17873)[&bootstrap=73]:0.061154,'Aethina.tumida_XM_020010789.2_CARP':0.150644)[&bootstrap=73]:0.060814)[&bootstrap=81]:0.102717)[&bootstrap=97]:0.074773)[&bootstrap=92]:0.054921,(('Portunus.trituberculatus_XM_045255629.1_CARP':0.084143,'Penaeus.chinensis_XM_047639886.1_CARP':0.277267)[&bootstrap=100]:0.326418,(((('Portunus.trituberculatus_XM_045255778.1_CARP':0.413383,'Penaeus.chinensis_XM_047640338.1_CARP':0.164054)[&bootstrap=100]:0.313333,(('Portunus.trituberculatus_XM_045262722.1_CARP':0.114238,'Penaeus.chinensis_XM_047635015.1_CARP':0.343249)[&bootstrap=87]:0.049595,'Portunus.trituberculatus_XM_045273411.1_CARP':0.19836)[&bootstrap=100]:0.349924)[&bootstrap=100]:0.435538,'Portunus.trituberculatus_XM_045258970.1_CARP':1.449952)[&bootstrap=97]:0.298224,('Portunus.trituberculatus_XM_045246372.1_CARP':0.206259,('Portunus.trituberculatus_XM_045246507.1_CARP':0.058754,'Penaeus.chinensis_XM_047622518.1_CARP':0.538474)[&bootstrap=100]:0.406057)[&bootstrap=100]:0.220207)[&bootstrap=96]:0.124168)[&bootstrap=92]:0.173195)[&bootstrap=85]:0.097042,('Daphnia.pulex_XM_046597762.1_CARP':0.072329,'Daphnia.carinata_XM_057521724.1_CARP':0.03728)[&bootstrap=100]:0.68888)[&bootstrap=95]:0.233926,(('Lepeophtheirus.salmonis_XM_040713379.1_CARP':0.754034,'Tigropus.californicus_XM_059224328.1_CARP':0.51644)[&bootstrap=100]:0.212274,(('Eurytemora.affinis_Atlantic.Clade__CAH4_CARP':0.009709,'Eurytemora.affinis_Gulf.Clade__CAH4_CARP':0.009445)[&bootstrap=99]:0.020607,'Eurytemora.affinis_Europe.Clade__CAH4_CARP':0.023549)[&bootstrap=100]:0.940536)[&bootstrap=78]:0.140074)[&bootstrap=100]:1.192328)[&bootstrap=99]:0.221496)[&bootstrap=94]:0.503222,'Amphimedon.queenslandica_XM_003383369.3_OUTGROUP':1.590775,('Amphimedon.queenslandica_XM_003386575.3_OUTGROUP':1.443945,('Amphimedon.queenslandica_XM_020000513.1_OUTGROUP':0.254026,'Amphimedon.queenslandica_XM_003388939.2_OUTGROUP':0.60911)[&bootstrap=100]:1.12982)[&bootstrap=100]:0.388127)[&bootstrap=99];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
