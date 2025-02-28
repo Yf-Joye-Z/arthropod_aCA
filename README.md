@@ -44,12 +44,10 @@ contains documents required to recreate the rate of evolution(dN/dS) analysis fo
       + **XXX_dn-ds.json** -- unparsed, raw dN/dS value for all branches and nodes. 
       + **XXX_final_omega.xlsx** -- parsed dN/dS values for branches and nodes for CARP αCA nucleotide
 
-- **cst_alignment_homology_getter.py** -- a python script that returns the column number of an input alignment where the homology of that column is above an user-inputed threshold. For example, if the cut-off of interest is 50, this script returns all columns where more than 50% of the sequences show the same amino acid/nucleotide. This script is intended to generate the **Auxillary file** required to use the cst editing mode in [ClipKit](https://jlsteenwyk.com/ClipKIT/). 
-- **cst_aa-to-cds.py** -- a python script that returns 
-- ****
-- ****
-
-
+- **cst_alignment_homology_getter.py** -- a python script that returns the column number of an input alignment where the homology of that column is above an user-inputed threshold. For example, if the cut-off of interest is 50, this script returns all columns where more than 50% of the sequences show the same amino acid/nucleotide. This script is intended to generate the *Auxillary file* for amino acid alignment, which is required when using the *cst* editing mode in [ClipKit](https://jlsteenwyk.com/ClipKIT/). 
+- **cst_aa-to-cds.py** -- a python script that changes the output of *cst_alignment_homology_getter.py* into column numbers of its corresponding nucleotide codons. Through this script, the user will be able to use the *cst* editing mode in [ClipKit](https://jlsteenwyk.com/ClipKIT/) to find the codons, where its corresponding amino acid has a homology above a user-defined threshold across sequence of interest. This script is used to created the **cst-edited_aCA.fasta** above. 
+- **ds_limit_enforcer.py** -- a python script that takes a raw dN/dS json file generated through HyPhy (such as **dn-ds.json** from above) and remove branches and nodes where its 1) dS > 3, 2) dS < 0.0001, and 3) dN/dS > 3. 
+- **dn-ds_getter.py** -- a python script that takes a dN/dS json file (generated through HyPhy) and parse it into a human-friendly excel file, where only the node/branch name and its corresponding dN/dS value are retained. This script is intended to be used on the output of **ds_limit_enforcer.py**, which generates the **final_omega.xlsx** seen above. 
 
 #### `selection_pressure_analysis/` 
 - contains
