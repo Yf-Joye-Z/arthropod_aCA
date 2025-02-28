@@ -1,4 +1,4 @@
-# arthropod_aCA
+# arthropod_αCA
 
 This repository contains the data and scripts required to reproduce the results in [Evolutionary history of Alpha Carbonic Anhydrase (αCA) gene family across the phylum Arthropoda](Insert%20link%20here)
 
@@ -9,17 +9,49 @@ For questions, please contact [yz937\@duke.edu](mailto:yz937@duke.edu){.email} o
 ---
 ## Details
 
-####`Arthropod_Chordate_aCA/` 
-- contains fasta file with unedited aCA sequences from arthropod and chordate 
+#### `Arthropod_Chordate_aCA/` 
+contains amino acid and nucleotide sequences for all arthropod and chordate αCA used in this study. 
+- **XXX_aCA_aa.fasta** -- amino acid sequences
+- **XXX_aCA_cds.fasta** -- nucleotide sequences
 
 #### `Arthropod_phylogeny/` 
-- contains 1) fasta file with unedited arthropod aCA sequences, 2) unlabeled arthropod phylogeny, and 3) labeled arthropod phylogeny
+contains documents required to recreate the arthropod phylogeny generated in this study
+- **unedited_arthropod_aCA.fasta** -- unedited amino acid sequences of arthropod and poriferan αCA used for the phylogeny and alignment-free clustering method. For the alignment-free clustering method, please see [Yeung et al., 2023](https://academic.oup.com/bib/article/24/1/bbac619/6987820?login=true) and its [GitHub repository](https://github.com/esbgkannan/chumby).
+- **unlabeled_arthropod_aCA_phylogeny.contree** -- arthropod αCA phylogeny that is not labeled
+- **labeled_arthropod_aCA_phylogeny.tbi** -- arthropod αCA phylogeny that is labeled.
 
-#### `dN-dS_Evolution_Rate` 
-- contains 1) an edited aCA fasta file, 2) a subphyla & clade-specific phylogeny, 3) a JSON file with raw dN/dS value, and 4) an excel file with dN/dS value after data-filtering. In addition, it contains 4 python scripts. 
+#### `dN-dS_Evolution_Rate/` 
+contains documents required to recreate the rate of evolution(dN/dS) analysis for 1) arthropod, 2) chordates, and 3) arthropod vs. chordates  
+- `Arthropod_dN-dS/`
+    * for `Cytosolic/`, `E&Mb/`, and `CARP/`
+      + **cst-edited_aCA.fasta** -- edited arthropod CARP αCA nucleotide alignment used for dN/dS analysis. Only codons where its corresponding aminoacid has 50% homology across sequences within each arthropod clades were kept.
+      + **phylogeny.contree** -- arthropod CARP αCA phylogeny used for dN/dS analysis. 
+      + **dn-ds.json** -- unparsed, raw dN/dS value for all branches and nodes. 
+      + **final_omega.xlsx** -- parsed dN/dS values for branches and nodes for arthropod CARP αCA nucleotide
+
+- `Chordate_dN-dS/`
+   * for `Cytosolic/`, `E&Mb/`, and `CARP/`
+      + **cst-edited_aCA.fasta** -- edited chordate CARP αCA nucleotide alignment used for dN/dS analysis. Only codons where its corresponding aminoacid has 50% homology across sequences within each chordate clades were kept.
+      + **phylogeny.contree** -- chordate CARP αCA phylogeny used for dN/dS analysis. 
+      + **dn-ds.json** -- unparsed, raw dN/dS value for all branches and nodes. 
+      + **final_omega.xlsx** -- parsed dN/dS values for branches and nodes for chordate CARP αCA nucleotide
+     
+- `Arthropod_vs_Chordate_dN-dS/`
+   * for `Cytosolic/`, `E&Mb/`, and `CARP/`
+   * The **XXX** below is meant to be substituted by either arthropod or chordate.
+      + **XXX_cst-edited_aCA.fasta** -- edited CARP αCA nucleotide alignment used for dN/dS analysis. Only codons where its corresponding aminoacid has 50% homology across sequences within both arthropod and chordate clades  were kept.
+      + **XXX_phylogeny.contree** -- CARP αCA phylogeny used for dN/dS analysis. 
+      + **XXX_dn-ds.json** -- unparsed, raw dN/dS value for all branches and nodes. 
+      + **XXX_final_omega.xlsx** -- parsed dN/dS values for branches and nodes for CARP αCA nucleotide
+
+- **cst_alignment_homology_getter.py** -- a python script that returns the column number of an input alignment where the homology of that column is above an user-inputed threshold. For example, if the cut-off of interest is 50, this script returns all columns where more than 50% of the sequences show the same amino acid/nucleotide. This script is intended to generate the *Auxillary file* for amino acid alignment, which is required when using the *cst* editing mode in [ClipKit](https://jlsteenwyk.com/ClipKIT/). 
+- **cst_aa-to-cds.py** -- a python script that changes the output of *cst_alignment_homology_getter.py* into column numbers of its corresponding nucleotide codons. Through this script, the user will be able to use the *cst* editing mode in [ClipKit](https://jlsteenwyk.com/ClipKIT/) to find the codons, where its corresponding amino acid has a homology above a user-defined threshold across sequence of interest. This script is used to created the **cst-edited_aCA.fasta** above. 
+- **ds_limit_enforcer.py** -- a python script that takes a raw dN/dS json file generated through HyPhy (such as **dn-ds.json** from above) and remove branches and nodes where its 1) dS > 3, 2) dS < 0.0001, and 3) dN/dS > 3. 
+- **dn-ds_getter.py** -- a python script that takes a dN/dS json file (generated through HyPhy) and parse it into a human-friendly excel file, where only the node/branch name and its corresponding dN/dS value are retained. This script is intended to be used on the output of **ds_limit_enforcer.py**, which generates the **final_omega.xlsx** seen above. 
 
 #### `selection_pressure_analysis/` 
 - contains
+  
 ---
 
 ::: {align="center"}
