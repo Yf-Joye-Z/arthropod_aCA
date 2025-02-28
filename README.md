@@ -16,14 +16,21 @@ contains amino acid and nucleotide sequences for all arthropod and chordate αCA
 
 #### `Arthropod_phylogeny/` 
 contains documents required to recreate the arthropod phylogeny generated in this study
-- **unedited_arthropod_aCA.fasta** -- unedited amino acid sequences of arthropod and poriferan αCA used for the phylogeny and alignment-free clustering method. For the alignment-free clustering method, please see [Yeung et al., 2023](https://academic.oup.com/bib/article/24/1/bbac619/) and its [GitHub repository](https://github.com/esbgkannan/chumby).
+- **unedited_arthropod_aCA.fasta** -- unedited amino acid sequences of arthropod and poriferan αCA used for the phylogeny and alignment-free clustering method. For the alignment-free clustering method, please see [Yeung et al., 2023](https://academic.oup.com/bib/article/24/1/bbac619/6987820?login=true) and its [GitHub repository](https://github.com/esbgkannan/chumby).
 - **unlabeled_arthropod_aCA_phylogeny.contree** -- arthropod αCA phylogeny that is not labeled
 - **labeled_arthropod_aCA_phylogeny.tbi** -- arthropod αCA phylogeny that is labeled.
 
+#### `dN-dS_Evolution_Rate/` 
+contains documents required to recreate the rate of evolution(dN/dS) analysis for 1) arthropod, 2) chordates, and 3) arthropod vs. chordates  
+- `Arthropod_dN-dS/`
+    * contains 
+- `Arthropod_vs_Chordate_dN-dS/`
+- `Chordate_dN-dS/`
+- ****
+- ****
+- ****
 
 
-#### `dN-dS_Evolution_Rate` 
-- contains 1) an edited aCA fasta file, 2) a subphyla & clade-specific phylogeny, 3) a JSON file with raw dN/dS value, and 4) an excel file with dN/dS value after data-filtering. In addition, it contains 4 python scripts. 
 
 #### `selection_pressure_analysis/` 
 - contains
