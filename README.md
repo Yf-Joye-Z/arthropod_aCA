@@ -23,7 +23,8 @@ contains documents required to recreate the arthropod phylogeny generated in thi
 #### `dN-dS_Evolution_Rate/` 
 contains documents required to recreate the rate of evolution(dN/dS) analysis for 1) arthropod, 2) chordates, and 3) arthropod vs. chordates  
 - `Arthropod_dN-dS/`
-    * contains 
+* `CARP/`
+* 
 - `Arthropod_vs_Chordate_dN-dS/`
 - `Chordate_dN-dS/`
 - ****
