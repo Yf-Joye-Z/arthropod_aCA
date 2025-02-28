@@ -4,7 +4,7 @@ This repository contains the data and scripts required to reproduce the results 
 
 Each folder contains data required to recreate the results in each section of the manuscript.
 
-For questions, please contact [yz937\@duke.edu](mailto:yz937@duke.edu){.email} or [carollee\@wisc.edu](mailto:carollee@wisc.edu){.email}
+For questions, please contact [yz937\@duke.edu](mailto:yz937@duke.edu) or [carollee\@wisc.edu](mailto:carollee@wisc.edu)
 
 ---
 ## Details
