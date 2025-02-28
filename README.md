@@ -23,11 +23,18 @@ contains documents required to recreate the arthropod phylogeny generated in thi
 #### `dN-dS_Evolution_Rate/` 
 contains documents required to recreate the rate of evolution(dN/dS) analysis for 1) arthropod, 2) chordates, and 3) arthropod vs. chordates  
 - `Arthropod_dN-dS/`
-  * `CARP/`
-    + d
-  * `Cytosolic/`
-  * `E&Mb/`
+    * for `Cytosolic/`, `E&Mb/`, and `CARP/`
+      + **cst-edited_aCA.fasta** -- edited arthropod CARP αCA nucleotide alignment used for dN/dS analysis. Only codons where its corresponding aminoacid has 50% homology across sequences were kept.
+      + **phylogeny.contree** -- arthropod CARP αCA phylogeny used for dN/dS analysis. 
+      + **dn-ds.json** -- unparsed, raw dN/dS value for all branches and nodes. 
+      + **final_omega.xlsx** -- parsed dN/dS values for branches and nodes for arthropod CARP αCA nucleotide
 - `Arthropod_vs_Chordate_dN-dS/`
+   * for `Cytosolic/`, `E&Mb/`, and `CARP/`
+      + **cst-edited_aCA.fasta** -- edited arthropod CARP αCA nucleotide alignment used for dN/dS analysis. Only codons where its corresponding aminoacid has 50% homology across sequences were kept.
+      + **phylogeny.contree** -- arthropod CARP αCA phylogeny used for dN/dS analysis. 
+      + **dn-ds.json** -- unparsed, raw dN/dS value for all branches and nodes. 
+      + **final_omega.xlsx** -- parsed dN/dS values for branches and nodes for arthropod CARP αCA nucleotide
+     
 - `Chordate_dN-dS/`
 - ****
 - ****
