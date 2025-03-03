@@ -55,21 +55,21 @@ contains files required to recreate the aBSREL, MEME, and BUSTED analysis done i
    * `aBSREL/`
      + **cst-edited_aCA_with-phylogeny.txt** -- edited arthropod CARP αCA alignment with newick-formatted phylogeny.  
      + **all-branches_foreground.json** -- generated aBSREL results when all branches/nodes were tested. 
-     + **Copepod_foreground.json** -- generated aBSREL results when only copepod branches/nodes were tested
+     + **Eurytemora_foreground.json** -- generated aBSREL results when only Eurytemora branches/nodes were tested
 - `Cytosolic/`
    * `aBSREL/`
      + **cst-edited_aCA_with-phylogeny.txt** -- edited arthropod Cytosolic αCA alignment with newick-formatted phylogeny.  
      + **all-branches_foreground.json** -- generated aBSREL results when all branches/nodes were tested. 
-     + **Copepod_foreground.json** -- generated aBSREL results when only copepod branches/nodes were tested
+     + **Eurytemora_foreground.json** -- generated aBSREL results when only Eurytemora branches/nodes were tested
 - `E&Mb`
    * `aBSREL/`
      + **cst-edited_aCA_with-phylogeny.txt** -- edited arthropod E&Mb αCA alignment with newick-formatted phylogeny.  
      + **all-branches_foreground.json** -- generated aBSREL results when all branches/nodes were tested. 
-     + **Copepod_foreground.json** -- generated aBSREL results when only copepod branches/nodes were tested
+     + **Eurytemora_foreground.json** -- generated aBSREL results when only Eurytemora branches/nodes were tested
    * `MEME/`
      + **cst-edited_aCA_with-phylogeny.txt** -- edited arthropod E&Mb αCA alignment with newick-formatted phylogeny.  
      + **all_branches_MEME.json** -- generated MEME results when all branches/nodes were tested. 
-     + **Copepod_MEME.json** -- generated MEME results when only copepod branches/nodes were tested  
+     + **Eurytemora_MEME.json** -- generated MEME results when only Eurytemora branches/nodes were tested  
    * `BUSTED/`
      + **cst-edited_aCA_with-phylogeny.txt** -- edited arthropod E&Mb αCA alignment with newick-formatted phylogeny.
      + **aCA12_foreground.json** -- generated BUSTED results when the 3 aCA12 paralogs of *Eurytemora affinis* species complex were selected as foreground.
