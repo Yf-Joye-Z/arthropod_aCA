@@ -29,6 +29,16 @@ contains labels, summary, and the final result from the alignment-free αCA clus
   - **mean_of_residue_tokens_ts_ss.eps** -- final UMAP file in eps (embedding vector is derived from mean of residue token and distance is calculated via ts-ss).
   - **mean_of_residue_tokens_ts_ss.html** -- final UMAP file in html (embedding vector is derived from mean of residue token and distance is calculated via ts-ss).
 
+### `Gene_tree-species_tree_reconciliation/` 
+contains documents required to recreate the gene tree-species tree reconciliation of arthropod and chordate αCA through [GeneRax](https://github.com/BenoitMorel/GeneRax/wiki)
+- **alignment.txt** -- edited amino acid sequences of arthropod, chordate, and poriferan αCA. 
+- **family.txt** -- a neccessary family file that specifies the starting_gene_tree, alignment, and mapping files.
+- **gene_tree.treefile** -- arthropod+chordate gene tree used for reconciliation.
+- **mapping.txt** -- a neccessary text file that shows the relationship between species and their gene names. It specifies how [GeneRax](https://github.com/BenoitMorel/GeneRax/wiki) should map each αCA sequence to species. 
+- **species_tree.txt** -- arthropod+chordate species tree used for reconciliation.
+- **result_aca_reconciliated.xml** -- Output after running GeneRax. the gene reconcilied species tree
+- **result_geneTree.newick** -- Output after running GeneRax. the species reconcilied gene tree
+
 ### `dN-dS_Evolution_Rate/` 
 contains documents required to recreate the rate of evolution(dN/dS) analysis for 1) arthropod, 2) chordates, and 3) arthropod vs. chordates  
 - `Arthropod_dN-dS/`

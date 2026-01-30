@@ -1,0 +1,7 @@
+[FAMILIES]
+- aca
+starting_gene_tree = gene_tree.treefile
+alignment = alignment.txt
+mapping = mapping.txt
+subst_model = Q.pfam
+

@@ -1,0 +1,3598 @@
+<recPhylo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.recg.org ./recGeneTreeXML.xsd"
+	xmlns="http://www.recg.org">
+<spTree>
+<phylogeny>
+<clade>
+		<name>Node_DAND_AQUE_0</name>
+	<clade>
+			<name>Node_DAND_BLAN_0</name>
+		<clade>
+				<name>Node_DAND_HHOL_0</name>
+			<clade>
+					<name>Node_DAND_ABRU_0</name>
+				<clade>
+						<name>DAND</name>
+				</clade>
+				<clade>
+						<name>ABRU</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>Node_HHOL_ECAR_0</name>
+				<clade>
+						<name>Node_HHOL_TTUB_0</name>
+					<clade>
+							<name>HHOL</name>
+					</clade>
+					<clade>
+							<name>TTUB</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>Node_ECAR_PTRI_0</name>
+					<clade>
+							<name>Node_ECAR_IELE_0</name>
+						<clade>
+								<name>Node_ECAR_DPUL_0</name>
+							<clade>
+									<name>ECAR</name>
+							</clade>
+							<clade>
+									<name>DPUL</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>Node_IELE_PINT_0</name>
+							<clade>
+									<name>IELE</name>
+							</clade>
+							<clade>
+									<name>Node_PINT_DSIM_0</name>
+								<clade>
+										<name>PINT</name>
+								</clade>
+								<clade>
+										<name>DSIM</name>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+							<name>PTRI</name>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>Node_BLAN_CINT_0</name>
+			<clade>
+					<name>BLAN</name>
+			</clade>
+			<clade>
+					<name>Node_CINT_DRER_0</name>
+				<clade>
+						<name>CINT</name>
+				</clade>
+				<clade>
+						<name>Node_DRER_XTRO_0</name>
+					<clade>
+							<name>DRER</name>
+					</clade>
+					<clade>
+							<name>Node_XTRO_GGAL_0</name>
+						<clade>
+								<name>XTRO</name>
+						</clade>
+						<clade>
+								<name>Node_GGAL_HSAP_0</name>
+							<clade>
+									<name>GGAL</name>
+							</clade>
+							<clade>
+									<name>HSAP</name>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+			<name>AQUE</name>
+	</clade>
+</clade>
+</phylogeny>
+</spTree>
+<recGeneTree>
+<phylogeny rooted="true">
+<clade>
+	<name>NULL</name>
+	<eventsRec>
+		<speciation speciesLocation="Node_DAND_AQUE_0"/>
+	</eventsRec>
+	<clade>
+		<name>NULL</name>
+		<eventsRec>
+			<duplication speciesLocation="Node_DAND_BLAN_0"/>
+		</eventsRec>
+		<clade>
+			<name>NULL</name>
+			<eventsRec>
+				<speciation speciesLocation="Node_DAND_BLAN_0"/>
+			</eventsRec>
+			<clade>
+				<name>NULL</name>
+				<eventsRec>
+					<speciation speciesLocation="Node_DAND_HHOL_0"/>
+				</eventsRec>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<speciation speciesLocation="Node_DAND_ABRU_0"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="DAND"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<duplication speciesLocation="ABRU"/>
+						</eventsRec>
+						<clade>
+							<name>Argiope.bruennichi_XM_056089253.1_</name>
+							<eventsRec>
+								<leaf speciesLocation="ABRU"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<duplication speciesLocation="ABRU"/>
+							</eventsRec>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="ABRU"/>
+								</eventsRec>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<duplication speciesLocation="ABRU"/>
+									</eventsRec>
+									<clade>
+										<name>Argiope.bruennichi_XM_056089479.1_</name>
+										<eventsRec>
+											<leaf speciesLocation="ABRU"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>Argiope.bruennichi_XM_056089251.1_</name>
+										<eventsRec>
+											<leaf speciesLocation="ABRU"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>Argiope.bruennichi_XM_056089258.1_</name>
+									<eventsRec>
+										<leaf speciesLocation="ABRU"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>Argiope.bruennichi_XM_056089259.1_</name>
+								<eventsRec>
+									<leaf speciesLocation="ABRU"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="Node_HHOL_TTUB_0"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="PTRI"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_ECAR_IELE_0"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="Node_ECAR_DPUL_0"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_IELE_PINT_0"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="IELE"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_PINT_DSIM_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="DSIM"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="PINT"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="PINT"/>
+											</eventsRec>
+											<clade>
+												<name>Plodia.interpunctella_XM_053749846.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="PINT"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Plodia.interpunctella_XM_053768658.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="PINT"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>Plodia.interpunctella_XM_053749729.1_</name>
+											<eventsRec>
+												<leaf speciesLocation="PINT"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+				<name>NULL</name>
+				<eventsRec>
+					<speciation speciesLocation="Node_BLAN_CINT_0"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="BLAN"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<speciation speciesLocation="Node_CINT_DRER_0"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="Node_DRER_XTRO_0"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>Ciona.intestinalis_XM_002121584.5</name>
+						<eventsRec>
+							<leaf speciesLocation="CINT"/>
+						</eventsRec>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+			<name>NULL</name>
+			<eventsRec>
+				<duplication speciesLocation="Node_DAND_BLAN_0"/>
+			</eventsRec>
+			<clade>
+				<name>NULL</name>
+				<eventsRec>
+					<duplication speciesLocation="Node_DAND_BLAN_0"/>
+				</eventsRec>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<duplication speciesLocation="Node_DAND_BLAN_0"/>
+					</eventsRec>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<duplication speciesLocation="Node_DAND_BLAN_0"/>
+						</eventsRec>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_DAND_BLAN_0"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="Node_DAND_HHOL_0"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_BLAN_CINT_0"/>
+								</eventsRec>
+								<clade>
+									<name>Branchiostoma.lanceolatum_XM_066434290.1</name>
+									<eventsRec>
+										<leaf speciesLocation="BLAN"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_CINT_DRER_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="CINT"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_DRER_XTRO_0"/>
+										</eventsRec>
+										<clade>
+											<name>Danio.rerio_CA8</name>
+											<eventsRec>
+												<leaf speciesLocation="DRER"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+											</eventsRec>
+											<clade>
+												<name>Xenopus.tropicalis_CA8</name>
+												<eventsRec>
+													<leaf speciesLocation="XTRO"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+												</eventsRec>
+												<clade>
+													<name>Gallus.gallus_CA8</name>
+													<eventsRec>
+														<leaf speciesLocation="GGAL"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Homo.sapiens_CAH8_CARP</name>
+													<eventsRec>
+														<leaf speciesLocation="HSAP"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_DAND_BLAN_0"/>
+							</eventsRec>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="Node_DAND_HHOL_0"/>
+								</eventsRec>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<duplication speciesLocation="Node_DAND_HHOL_0"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_DAND_HHOL_0"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="Node_DAND_ABRU_0"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="Node_HHOL_TTUB_0"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_ECAR_IELE_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="Node_IELE_PINT_0"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_ECAR_DPUL_0"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="DPUL"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Eurytemora.affinis_Atlantic.Clade__CAH4_CARP</name>
+															<eventsRec>
+																<leaf speciesLocation="ECAR"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="PTRI"/>
+													</eventsRec>
+													<clade>
+														<name>Portunus.trituberculatus_XM_045255778.1_CARP</name>
+														<eventsRec>
+															<leaf speciesLocation="PTRI"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<duplication speciesLocation="PTRI"/>
+														</eventsRec>
+														<clade>
+															<name>Portunus.trituberculatus_XM_045262722.1_CARP</name>
+															<eventsRec>
+																<leaf speciesLocation="PTRI"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Portunus.trituberculatus_XM_045273411.1_CARP</name>
+															<eventsRec>
+																<leaf speciesLocation="PTRI"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="Node_DAND_HHOL_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="Node_DAND_HHOL_0"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="Node_DAND_HHOL_0"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_DAND_HHOL_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="Node_DAND_ABRU_0"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="Node_HHOL_TTUB_0"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="PTRI"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<speciation speciesLocation="Node_ECAR_IELE_0"/>
+																</eventsRec>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<speciation speciesLocation="Node_ECAR_DPUL_0"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="ECAR"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>Daphnia.pulex_XM_046597762.1_CARP</name>
+																		<eventsRec>
+																			<leaf speciesLocation="DPUL"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<speciation speciesLocation="Node_IELE_PINT_0"/>
+																	</eventsRec>
+																	<clade>
+																		<name>NULL</name>
+																		<eventsRec>
+																			<duplication speciesLocation="IELE"/>
+																		</eventsRec>
+																		<clade>
+																			<name>Ischnura.elegans_XM_046538883.1_CARP</name>
+																			<eventsRec>
+																				<leaf speciesLocation="IELE"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>Ischnura.elegans_XM_046539321.1_CARP</name>
+																			<eventsRec>
+																				<leaf speciesLocation="IELE"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>NULL</name>
+																		<eventsRec>
+																			<speciation speciesLocation="Node_PINT_DSIM_0"/>
+																		</eventsRec>
+																		<clade>
+																			<name>Plodia.interpunctella_XM_053744347.1_CARP</name>
+																			<eventsRec>
+																				<leaf speciesLocation="PINT"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>Drosophila.simulans_XM_016173672.2_CARP</name>
+																			<eventsRec>
+																				<leaf speciesLocation="DSIM"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_DAND_HHOL_0"/>
+													</eventsRec>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<duplication speciesLocation="Node_DAND_ABRU_0"/>
+														</eventsRec>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<duplication speciesLocation="Node_DAND_ABRU_0"/>
+															</eventsRec>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<duplication speciesLocation="Node_DAND_ABRU_0"/>
+																</eventsRec>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<duplication speciesLocation="Node_DAND_ABRU_0"/>
+																	</eventsRec>
+																	<clade>
+																		<name>NULL</name>
+																		<eventsRec>
+																			<speciation speciesLocation="Node_DAND_ABRU_0"/>
+																		</eventsRec>
+																		<clade>
+																			<name>Dermacentor.andersoni_XM_050183355.1_CARP</name>
+																			<eventsRec>
+																				<leaf speciesLocation="DAND"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>Argiope.bruennichi_XM_056074079.1_CARP</name>
+																			<eventsRec>
+																				<leaf speciesLocation="ABRU"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>NULL</name>
+																		<eventsRec>
+																			<speciation speciesLocation="Node_DAND_ABRU_0"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="DAND"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>Argiope.bruennichi_XM_056071929.1_CARP</name>
+																			<eventsRec>
+																				<leaf speciesLocation="ABRU"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<speciation speciesLocation="Node_DAND_ABRU_0"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="DAND"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>Argiope.bruennichi_XM_056073927.1_CARP</name>
+																		<eventsRec>
+																			<leaf speciesLocation="ABRU"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<speciation speciesLocation="Node_DAND_ABRU_0"/>
+																</eventsRec>
+																<clade>
+																	<name>Dermacentor.andersoni_XM_050184009.1_CARP</name>
+																	<eventsRec>
+																		<leaf speciesLocation="DAND"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>Argiope.bruennichi_XM_056069369.1_CARP</name>
+																	<eventsRec>
+																		<leaf speciesLocation="ABRU"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_DAND_ABRU_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="DAND"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Argiope.bruennichi_XM_056074193.1_CARP</name>
+																<eventsRec>
+																	<leaf speciesLocation="ABRU"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+														</eventsRec>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_HHOL_TTUB_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="TTUB"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<duplication speciesLocation="HHOL"/>
+																</eventsRec>
+																<clade>
+																	<name>Helicorthomorpha.holstii_Hho_009616-T1_CARP</name>
+																	<eventsRec>
+																		<leaf speciesLocation="HHOL"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>Helicorthomorpha.holstii_Hho_002072-T1_CARP</name>
+																	<eventsRec>
+																		<leaf speciesLocation="HHOL"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+															</eventsRec>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<speciation speciesLocation="Node_ECAR_IELE_0"/>
+																</eventsRec>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<speciation speciesLocation="Node_ECAR_DPUL_0"/>
+																	</eventsRec>
+																	<clade>
+																		<name>Eurytemora.affinis_Atlantic.Clade__CAH2_CARP</name>
+																		<eventsRec>
+																			<leaf speciesLocation="ECAR"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>Daphnia.pulex_XM_046594733.1_CARP</name>
+																		<eventsRec>
+																			<leaf speciesLocation="DPUL"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<speciation speciesLocation="Node_IELE_PINT_0"/>
+																	</eventsRec>
+																	<clade>
+																		<name>Ischnura.elegans_XM_046538715.1_CARP</name>
+																		<eventsRec>
+																			<leaf speciesLocation="IELE"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>NULL</name>
+																		<eventsRec>
+																			<speciation speciesLocation="Node_PINT_DSIM_0"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="DSIM"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>Plodia.interpunctella_XM_053760557.1_CARP</name>
+																			<eventsRec>
+																				<leaf speciesLocation="PINT"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																<name>Portunus.trituberculatus_XM_045260393.1_CARP</name>
+																<eventsRec>
+																	<leaf speciesLocation="PTRI"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_DAND_HHOL_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="Node_DAND_ABRU_0"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="Node_HHOL_TTUB_0"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="Node_ECAR_IELE_0"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Portunus.trituberculatus_XM_045255629.1_CARP</name>
+															<eventsRec>
+																<leaf speciesLocation="PTRI"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_DAND_HHOL_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="Node_DAND_ABRU_0"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="Node_HHOL_TTUB_0"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="Node_ECAR_IELE_0"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<duplication speciesLocation="PTRI"/>
+														</eventsRec>
+														<clade>
+															<name>Portunus.trituberculatus_XM_045246372.1_CARP</name>
+															<eventsRec>
+																<leaf speciesLocation="PTRI"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Portunus.trituberculatus_XM_045246507.1_CARP</name>
+															<eventsRec>
+																<leaf speciesLocation="PTRI"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_DAND_HHOL_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="Node_DAND_ABRU_0"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="Node_HHOL_TTUB_0"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="Node_ECAR_IELE_0"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Portunus.trituberculatus_XM_045258970.1_CARP</name>
+												<eventsRec>
+													<leaf speciesLocation="PTRI"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_BLAN_CINT_0"/>
+								</eventsRec>
+								<clade>
+									<name>Branchiostoma.lanceolatum_XM_066430411.1_CARP</name>
+									<eventsRec>
+										<leaf speciesLocation="BLAN"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_CINT_DRER_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="CINT"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="Node_DRER_XTRO_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="Node_DRER_XTRO_0"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_DRER_XTRO_0"/>
+												</eventsRec>
+												<clade>
+													<name>Danio.rerio_CA10a</name>
+													<eventsRec>
+														<leaf speciesLocation="DRER"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+													</eventsRec>
+													<clade>
+														<name>Xenopus.tropicalis_CA10</name>
+														<eventsRec>
+															<leaf speciesLocation="XTRO"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+														</eventsRec>
+														<clade>
+															<name>Gallus.gallus_CA10</name>
+															<eventsRec>
+																<leaf speciesLocation="GGAL"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Homo.sapiens_CAH10_CARP</name>
+															<eventsRec>
+																<leaf speciesLocation="HSAP"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_DRER_XTRO_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="Node_XTRO_GGAL_0"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Danio.rerio_CA10b</name>
+													<eventsRec>
+														<leaf speciesLocation="DRER"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_DRER_XTRO_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="DRER"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+												</eventsRec>
+												<clade>
+													<name>Xenopus.tropicalis_CA11_CARP</name>
+													<eventsRec>
+														<leaf speciesLocation="XTRO"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="GGAL"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Homo.sapiens_CAH11_CARP</name>
+														<eventsRec>
+															<leaf speciesLocation="HSAP"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<speciation speciesLocation="Node_DAND_BLAN_0"/>
+						</eventsRec>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<duplication speciesLocation="Node_DAND_HHOL_0"/>
+							</eventsRec>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_DAND_HHOL_0"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="Node_DAND_ABRU_0"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="Node_HHOL_TTUB_0"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="PTRI"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_ECAR_IELE_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="Node_IELE_PINT_0"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_ECAR_DPUL_0"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="ECAR"/>
+													</eventsRec>
+													<clade>
+														<name>Eurytemora.affinis_Atlantic.Clade__CAH5_</name>
+														<eventsRec>
+															<leaf speciesLocation="ECAR"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Eurytemora.affinis_Atlantic.Clade__CAH7_</name>
+														<eventsRec>
+															<leaf speciesLocation="ECAR"/>
+														</eventsRec>
+													</clade>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="DPUL"/>
+													</eventsRec>
+													<clade>
+														<name>Daphnia.pulex_XM_046586478.1_</name>
+														<eventsRec>
+															<leaf speciesLocation="DPUL"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Daphnia.pulex_XM_046585175.1_</name>
+														<eventsRec>
+															<leaf speciesLocation="DPUL"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="Node_DAND_HHOL_0"/>
+								</eventsRec>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_DAND_HHOL_0"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="Node_DAND_ABRU_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_DAND_ABRU_0"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="DAND"/>
+												</eventsRec>
+												<clade>
+													<name>Dermacentor.andersoni_XM_050193158.1_</name>
+													<eventsRec>
+														<leaf speciesLocation="DAND"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Dermacentor.andersoni_XM_055061825.1_</name>
+													<eventsRec>
+														<leaf speciesLocation="DAND"/>
+													</eventsRec>
+												</clade>
+											</clade>
+											<clade>
+												<name>Argiope.bruennichi_XM_056077625.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="ABRU"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_DAND_ABRU_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="DAND"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Argiope.bruennichi_XM_056068914.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="ABRU"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_HHOL_TTUB_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="TTUB"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Helicorthomorpha.holstii_Hho_009670-T1_</name>
+												<eventsRec>
+													<leaf speciesLocation="HHOL"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="PTRI"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_ECAR_IELE_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="Node_ECAR_DPUL_0"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_IELE_PINT_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="IELE"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_PINT_DSIM_0"/>
+														</eventsRec>
+														<clade>
+															<name>Plodia.interpunctella_XM_053755760.1_</name>
+															<eventsRec>
+																<leaf speciesLocation="PINT"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Drosophila.simulans_XM_002079344.4_</name>
+															<eventsRec>
+																<leaf speciesLocation="DSIM"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_DAND_HHOL_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="Node_DAND_ABRU_0"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="Node_HHOL_TTUB_0"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_ECAR_IELE_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="Node_ECAR_DPUL_0"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_IELE_PINT_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="Node_PINT_DSIM_0"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Ischnura.elegans_XM_046528811.1_</name>
+														<eventsRec>
+															<leaf speciesLocation="IELE"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>Portunus.trituberculatus_XM_045252186.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="PTRI"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_BLAN_CINT_0"/>
+							</eventsRec>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="BLAN"/>
+								</eventsRec>
+								<clade>
+									<name>Branchiostoma.lanceolatum_XM_066433516.1</name>
+									<eventsRec>
+										<leaf speciesLocation="BLAN"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>Branchiostoma.lanceolatum_XM_066433519.1</name>
+									<eventsRec>
+										<leaf speciesLocation="BLAN"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_CINT_DRER_0"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="CINT"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<duplication speciesLocation="Node_DRER_XTRO_0"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_DRER_XTRO_0"/>
+										</eventsRec>
+										<clade>
+											<name>Danio.rerio_CA5a</name>
+											<eventsRec>
+												<leaf speciesLocation="DRER"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+											</eventsRec>
+											<clade>
+												<name>Xenopus.tropicalis_CA5B</name>
+												<eventsRec>
+													<leaf speciesLocation="XTRO"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+												</eventsRec>
+												<clade>
+													<name>Gallus.gallus_CA5a</name>
+													<eventsRec>
+														<leaf speciesLocation="GGAL"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="HSAP"/>
+													</eventsRec>
+													<clade>
+														<name>Homo.sapiens_CAH5A</name>
+														<eventsRec>
+															<leaf speciesLocation="HSAP"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Homo.sapiens_CAH5B</name>
+														<eventsRec>
+															<leaf speciesLocation="HSAP"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="Node_DRER_XTRO_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_DRER_XTRO_0"/>
+											</eventsRec>
+											<clade>
+												<name>Danio.rerio_CA7</name>
+												<eventsRec>
+													<leaf speciesLocation="DRER"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+												</eventsRec>
+												<clade>
+													<name>Xenopus.tropicalis_CA7</name>
+													<eventsRec>
+														<leaf speciesLocation="XTRO"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+													</eventsRec>
+													<clade>
+														<name>Gallus.gallus_CA7</name>
+														<eventsRec>
+															<leaf speciesLocation="GGAL"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Homo.sapiens_CAH7</name>
+														<eventsRec>
+															<leaf speciesLocation="HSAP"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_DRER_XTRO_0"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="DRER"/>
+												</eventsRec>
+												<clade>
+													<name>Danio.rerio_CA2</name>
+													<eventsRec>
+														<leaf speciesLocation="DRER"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Danio.rerio_CAz</name>
+													<eventsRec>
+														<leaf speciesLocation="DRER"/>
+													</eventsRec>
+												</clade>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="Node_XTRO_GGAL_0"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="Node_XTRO_GGAL_0"/>
+													</eventsRec>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+														</eventsRec>
+														<clade>
+															<name>Xenopus.tropicalis_CA1</name>
+															<eventsRec>
+																<leaf speciesLocation="XTRO"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="GGAL"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Homo.sapiens_CAH1</name>
+																<eventsRec>
+																	<leaf speciesLocation="HSAP"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+														</eventsRec>
+														<clade>
+															<name>Xenopus.tropicalis_CA13.1</name>
+															<eventsRec>
+																<leaf speciesLocation="XTRO"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+															</eventsRec>
+															<clade>
+																<name>Gallus.gallus_CA13</name>
+																<eventsRec>
+																	<leaf speciesLocation="GGAL"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Homo.sapiens_CAH13</name>
+																<eventsRec>
+																	<leaf speciesLocation="HSAP"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="Node_XTRO_GGAL_0"/>
+													</eventsRec>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<duplication speciesLocation="Node_XTRO_GGAL_0"/>
+														</eventsRec>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+															</eventsRec>
+															<clade>
+																<name>Xenopus.tropicalis_CA13.2</name>
+																<eventsRec>
+																	<leaf speciesLocation="XTRO"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+																</eventsRec>
+																<clade>
+																	<name>Gallus.gallus_CA2</name>
+																	<eventsRec>
+																		<leaf speciesLocation="GGAL"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>Homo.sapiens_CAH2</name>
+																	<eventsRec>
+																		<leaf speciesLocation="HSAP"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="Node_GGAL_HSAP_0"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Xenopus.tropicalis_CA2</name>
+																<eventsRec>
+																	<leaf speciesLocation="XTRO"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+														</eventsRec>
+														<clade>
+															<name>Xenopus.tropicalis_CA3</name>
+															<eventsRec>
+																<leaf speciesLocation="XTRO"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+															</eventsRec>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<duplication speciesLocation="GGAL"/>
+																</eventsRec>
+																<clade>
+																	<name>Gallus.gallus_CA3a</name>
+																	<eventsRec>
+																		<leaf speciesLocation="GGAL"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>Gallus.gallus_CA3b</name>
+																	<eventsRec>
+																		<leaf speciesLocation="GGAL"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+															<clade>
+																<name>Homo.sapiens_CAH3</name>
+																<eventsRec>
+																	<leaf speciesLocation="HSAP"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<speciation speciesLocation="Node_DAND_BLAN_0"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="Node_BLAN_CINT_0"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<speciation speciesLocation="Node_DAND_HHOL_0"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="Node_DAND_ABRU_0"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="Node_ECAR_PTRI_0"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_HHOL_TTUB_0"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="TTUB"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>Helicorthomorpha.holstii_Hho_005226-T1_</name>
+									<eventsRec>
+										<leaf speciesLocation="HHOL"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+				<name>NULL</name>
+				<eventsRec>
+					<speciation speciesLocation="Node_DAND_BLAN_0"/>
+				</eventsRec>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<duplication speciesLocation="Node_DAND_HHOL_0"/>
+					</eventsRec>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<duplication speciesLocation="Node_DAND_HHOL_0"/>
+						</eventsRec>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_DAND_HHOL_0"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="Node_DAND_ABRU_0"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="Node_HHOL_ECAR_0"/>
+								</eventsRec>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_HHOL_TTUB_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="HHOL"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="HHOL"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="HHOL"/>
+													</eventsRec>
+													<clade>
+														<name>Helicorthomorpha.holstii_Hho_022190-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="HHOL"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Helicorthomorpha.holstii_Hho_022191-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="HHOL"/>
+														</eventsRec>
+													</clade>
+												</clade>
+												<clade>
+													<name>Helicorthomorpha.holstii_Hho_022192-T1_</name>
+													<eventsRec>
+														<leaf speciesLocation="HHOL"/>
+													</eventsRec>
+												</clade>
+											</clade>
+											<clade>
+												<name>Helicorthomorpha.holstii_Hho_016507-T1_</name>
+												<eventsRec>
+													<leaf speciesLocation="HHOL"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="TTUB"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="TTUB"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="TTUB"/>
+													</eventsRec>
+													<clade>
+														<name>Thereuonema.tuberculata_Ttu_029673-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="TTUB"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Thereuonema.tuberculata_Ttu_017529-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="TTUB"/>
+														</eventsRec>
+													</clade>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="TTUB"/>
+													</eventsRec>
+													<clade>
+														<name>Thereuonema.tuberculata_Ttu_045955-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="TTUB"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Thereuonema.tuberculata_Ttu_045926-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="TTUB"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="TTUB"/>
+												</eventsRec>
+												<clade>
+													<name>Thereuonema.tuberculata_Ttu_006239-T1_</name>
+													<eventsRec>
+														<leaf speciesLocation="TTUB"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="TTUB"/>
+													</eventsRec>
+													<clade>
+														<name>Thereuonema.tuberculata_Ttu_005949-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="TTUB"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Thereuonema.tuberculata_Ttu_036490-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="TTUB"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="Node_ECAR_IELE_0"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="PTRI"/>
+											</eventsRec>
+											<clade>
+												<name>Portunus.trituberculatus_XM_045269853.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="PTRI"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Portunus.trituberculatus_XM_045270361.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="PTRI"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="Node_HHOL_TTUB_0"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_ECAR_IELE_0"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_ECAR_DPUL_0"/>
+												</eventsRec>
+												<clade>
+													<name>Eurytemora.affinis_Atlantic.Clade__CAH11_</name>
+													<eventsRec>
+														<leaf speciesLocation="ECAR"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="DPUL"/>
+													</eventsRec>
+													<clade>
+														<name>Daphnia.pulex_XM_046588876.1_</name>
+														<eventsRec>
+															<leaf speciesLocation="DPUL"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<duplication speciesLocation="DPUL"/>
+														</eventsRec>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<duplication speciesLocation="DPUL"/>
+															</eventsRec>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<duplication speciesLocation="DPUL"/>
+																</eventsRec>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<duplication speciesLocation="DPUL"/>
+																	</eventsRec>
+																	<clade>
+																		<name>Daphnia.pulex_XM_046593821.1_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="DPUL"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>Daphnia.pulex_XM_046593827.1_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="DPUL"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<duplication speciesLocation="DPUL"/>
+																	</eventsRec>
+																	<clade>
+																		<name>Daphnia.pulex_XM_046593811.1_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="DPUL"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>Daphnia.pulex_XM_046593822.1_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="DPUL"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																<name>Daphnia.pulex_XM_046593803.1_</name>
+																<eventsRec>
+																	<leaf speciesLocation="DPUL"/>
+																</eventsRec>
+															</clade>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<duplication speciesLocation="DPUL"/>
+															</eventsRec>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<duplication speciesLocation="DPUL"/>
+																</eventsRec>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<duplication speciesLocation="DPUL"/>
+																	</eventsRec>
+																	<clade>
+																		<name>NULL</name>
+																		<eventsRec>
+																			<duplication speciesLocation="DPUL"/>
+																		</eventsRec>
+																		<clade>
+																			<name>Daphnia.pulex_XM_046593538.1_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="DPUL"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>NULL</name>
+																			<eventsRec>
+																				<duplication speciesLocation="DPUL"/>
+																			</eventsRec>
+																			<clade>
+																				<name>NULL</name>
+																				<eventsRec>
+																					<duplication speciesLocation="DPUL"/>
+																				</eventsRec>
+																				<clade>
+																					<name>Daphnia.pulex_XM_046593524.1_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="DPUL"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>NULL</name>
+																					<eventsRec>
+																						<duplication speciesLocation="DPUL"/>
+																					</eventsRec>
+																					<clade>
+																						<name>Daphnia.pulex_XM_046593523.1_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="DPUL"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>Daphnia.pulex_XM_046593518.1_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="DPUL"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>NULL</name>
+																				<eventsRec>
+																					<duplication speciesLocation="DPUL"/>
+																				</eventsRec>
+																				<clade>
+																					<name>Daphnia.pulex_XM_046593547.1_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="DPUL"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>Daphnia.pulex_XM_046593548.1_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="DPUL"/>
+																					</eventsRec>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>Daphnia.pulex_XM_046593525.1_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="DPUL"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>Daphnia.pulex_XM_046593540.1_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="DPUL"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+															<clade>
+																<name>Daphnia.pulex_XM_046591744.1_</name>
+																<eventsRec>
+																	<leaf speciesLocation="DPUL"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_IELE_PINT_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="Node_PINT_DSIM_0"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Ischnura.elegans_XM_046532448.1_</name>
+													<eventsRec>
+														<leaf speciesLocation="IELE"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="PTRI"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="PTRI"/>
+												</eventsRec>
+												<clade>
+													<name>Portunus.trituberculatus_XM_045268171.1_</name>
+													<eventsRec>
+														<leaf speciesLocation="PTRI"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Portunus.trituberculatus_XM_045246929.1_</name>
+													<eventsRec>
+														<leaf speciesLocation="PTRI"/>
+													</eventsRec>
+												</clade>
+											</clade>
+											<clade>
+												<name>Portunus.trituberculatus_XM_045252130.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="PTRI"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_DAND_HHOL_0"/>
+							</eventsRec>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_DAND_ABRU_0"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="ABRU"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<duplication speciesLocation="DAND"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="DAND"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="DAND"/>
+											</eventsRec>
+											<clade>
+												<name>Dermacentor.andersoni_XM_050189592.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="DAND"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Dermacentor.andersoni_XM_050190598.1_</name>
+												<eventsRec>
+													<leaf speciesLocation="DAND"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>Dermacentor.andersoni_XM_050190017.1_</name>
+											<eventsRec>
+												<leaf speciesLocation="DAND"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>Dermacentor.andersoni_XM_050169452.1_</name>
+										<eventsRec>
+											<leaf speciesLocation="DAND"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+								</eventsRec>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_HHOL_TTUB_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="TTUB"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="HHOL"/>
+										</eventsRec>
+										<clade>
+											<name>Helicorthomorpha.holstii_Hho_002916-T1_</name>
+											<eventsRec>
+												<leaf speciesLocation="HHOL"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="HHOL"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="HHOL"/>
+												</eventsRec>
+												<clade>
+													<name>Helicorthomorpha.holstii_Hho_015627-T1_</name>
+													<eventsRec>
+														<leaf speciesLocation="HHOL"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Helicorthomorpha.holstii_Hho_019740-T1_</name>
+													<eventsRec>
+														<leaf speciesLocation="HHOL"/>
+													</eventsRec>
+												</clade>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="HHOL"/>
+												</eventsRec>
+												<clade>
+													<name>Helicorthomorpha.holstii_Hho_003785-T1_</name>
+													<eventsRec>
+														<leaf speciesLocation="HHOL"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="HHOL"/>
+													</eventsRec>
+													<clade>
+														<name>Helicorthomorpha.holstii_Hho_016197-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="HHOL"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Helicorthomorpha.holstii_Hho_016196-T1_</name>
+														<eventsRec>
+															<leaf speciesLocation="HHOL"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="PTRI"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="Node_ECAR_IELE_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_ECAR_IELE_0"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_ECAR_DPUL_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="DPUL"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Eurytemora.affinis_Atlantic.Clade__CAH12_</name>
+													<eventsRec>
+														<leaf speciesLocation="ECAR"/>
+													</eventsRec>
+												</clade>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="Node_IELE_PINT_0"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_IELE_PINT_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="IELE"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<duplication speciesLocation="Node_PINT_DSIM_0"/>
+														</eventsRec>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<duplication speciesLocation="Node_PINT_DSIM_0"/>
+															</eventsRec>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<speciation speciesLocation="Node_PINT_DSIM_0"/>
+																</eventsRec>
+																<clade>
+																	<name>Plodia.interpunctella_XM_053747889.1_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="PINT"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>Drosophila.simulans_XM_002105091.3_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="DSIM"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<speciation speciesLocation="Node_PINT_DSIM_0"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="PINT"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>NULL</name>
+																	<eventsRec>
+																		<duplication speciesLocation="DSIM"/>
+																	</eventsRec>
+																	<clade>
+																		<name>NULL</name>
+																		<eventsRec>
+																			<duplication speciesLocation="DSIM"/>
+																		</eventsRec>
+																		<clade>
+																			<name>NULL</name>
+																			<eventsRec>
+																				<duplication speciesLocation="DSIM"/>
+																			</eventsRec>
+																			<clade>
+																				<name>Drosophila.simulans_XM_016177891.3_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="DSIM"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>Drosophila.simulans_XM_002105571.3_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="DSIM"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>NULL</name>
+																			<eventsRec>
+																				<duplication speciesLocation="DSIM"/>
+																			</eventsRec>
+																			<clade>
+																				<name>Drosophila.simulans_XM_016177892.3_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="DSIM"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>Drosophila.simulans_XM_039295141.2_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="DSIM"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>Drosophila.simulans_XM_039295397.1_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="DSIM"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_PINT_DSIM_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="PINT"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Drosophila.simulans_XM_002103981.4_</name>
+																<eventsRec>
+																	<leaf speciesLocation="DSIM"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="Node_IELE_PINT_0"/>
+													</eventsRec>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<duplication speciesLocation="Node_IELE_PINT_0"/>
+														</eventsRec>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_IELE_PINT_0"/>
+															</eventsRec>
+															<clade>
+																<name>Ischnura.elegans_XM_046534946.1_</name>
+																<eventsRec>
+																	<leaf speciesLocation="IELE"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<speciation speciesLocation="Node_PINT_DSIM_0"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="DSIM"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>Plodia.interpunctella_XM_053747610.1_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="PINT"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_IELE_PINT_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="IELE"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>NULL</name>
+																<eventsRec>
+																	<speciation speciesLocation="Node_PINT_DSIM_0"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="PINT"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>Drosophila.simulans_XM_002084577.4_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="DSIM"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_IELE_PINT_0"/>
+														</eventsRec>
+														<clade>
+															<name>Ischnura.elegans_XM_046546891.1_</name>
+															<eventsRec>
+																<leaf speciesLocation="IELE"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_PINT_DSIM_0"/>
+															</eventsRec>
+															<clade>
+																<name>Plodia.interpunctella_XM_053747902.1_</name>
+																<eventsRec>
+																	<leaf speciesLocation="PINT"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Drosophila.simulans_XM_016173635.3_</name>
+																<eventsRec>
+																	<leaf speciesLocation="DSIM"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_ECAR_IELE_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="Node_ECAR_DPUL_0"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="Node_IELE_PINT_0"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="Node_IELE_PINT_0"/>
+													</eventsRec>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_IELE_PINT_0"/>
+														</eventsRec>
+														<clade>
+															<name>Ischnura.elegans_XM_046526695.1_</name>
+															<eventsRec>
+																<leaf speciesLocation="IELE"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_PINT_DSIM_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="PINT"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Drosophila.simulans_XM_002082357.4_</name>
+																<eventsRec>
+																	<leaf speciesLocation="DSIM"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_IELE_PINT_0"/>
+														</eventsRec>
+														<clade>
+															<name>Ischnura.elegans_XM_046546895.1_</name>
+															<eventsRec>
+																<leaf speciesLocation="IELE"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<speciation speciesLocation="Node_PINT_DSIM_0"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="DSIM"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Plodia.interpunctella_XM_053747831.1_</name>
+																<eventsRec>
+																	<leaf speciesLocation="PINT"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_IELE_PINT_0"/>
+													</eventsRec>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<duplication speciesLocation="IELE"/>
+														</eventsRec>
+														<clade>
+															<name>Ischnura.elegans_XM_046535607.1_</name>
+															<eventsRec>
+																<leaf speciesLocation="IELE"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>NULL</name>
+															<eventsRec>
+																<duplication speciesLocation="IELE"/>
+															</eventsRec>
+															<clade>
+																<name>Ischnura.elegans_XM_046546894.1_</name>
+																<eventsRec>
+																	<leaf speciesLocation="IELE"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>Ischnura.elegans_XM_046546524.1_</name>
+																<eventsRec>
+																	<leaf speciesLocation="IELE"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_PINT_DSIM_0"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="DSIM"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Plodia.interpunctella_XM_053747575.1_</name>
+															<eventsRec>
+																<leaf speciesLocation="PINT"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<speciation speciesLocation="Node_DAND_HHOL_0"/>
+						</eventsRec>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<duplication speciesLocation="Node_DAND_ABRU_0"/>
+							</eventsRec>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_DAND_ABRU_0"/>
+								</eventsRec>
+								<clade>
+									<name>Dermacentor.andersoni_XM_050166906.1_</name>
+									<eventsRec>
+										<leaf speciesLocation="DAND"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>Argiope.bruennichi_XM_056076976.1_</name>
+									<eventsRec>
+										<leaf speciesLocation="ABRU"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_DAND_ABRU_0"/>
+								</eventsRec>
+								<clade>
+									<name>Dermacentor.andersoni_XM_050166915.1_</name>
+									<eventsRec>
+										<leaf speciesLocation="DAND"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>Argiope.bruennichi_XM_056088242.1_</name>
+									<eventsRec>
+										<leaf speciesLocation="ABRU"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_HHOL_ECAR_0"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="Node_HHOL_TTUB_0"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<speciation speciesLocation="Node_ECAR_PTRI_0"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="PTRI"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_ECAR_IELE_0"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="Node_IELE_PINT_0"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_ECAR_DPUL_0"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="DPUL"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="ECAR"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="ECAR"/>
+												</eventsRec>
+												<clade>
+													<name>Eurytemora.affinis_Atlantic.Clade__CAH8_</name>
+													<eventsRec>
+														<leaf speciesLocation="ECAR"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<duplication speciesLocation="ECAR"/>
+													</eventsRec>
+													<clade>
+														<name>Eurytemora.affinis_Atlantic.Clade__CAH10_</name>
+														<eventsRec>
+															<leaf speciesLocation="ECAR"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Eurytemora.affinis_Atlantic.Clade__CAH9_</name>
+														<eventsRec>
+															<leaf speciesLocation="ECAR"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>Eurytemora.affinis_Atlantic.Clade__CAH14_</name>
+												<eventsRec>
+													<leaf speciesLocation="ECAR"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<duplication speciesLocation="Node_BLAN_CINT_0"/>
+					</eventsRec>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<speciation speciesLocation="Node_BLAN_CINT_0"/>
+						</eventsRec>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<duplication speciesLocation="BLAN"/>
+							</eventsRec>
+							<clade>
+								<name>Branchiostoma.lanceolatum_XM_066445431.1</name>
+								<eventsRec>
+									<leaf speciesLocation="BLAN"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="BLAN"/>
+								</eventsRec>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<duplication speciesLocation="BLAN"/>
+									</eventsRec>
+									<clade>
+										<name>Branchiostoma.lanceolatum_XM_066440712.1</name>
+										<eventsRec>
+											<leaf speciesLocation="BLAN"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>Branchiostoma.lanceolatum_XM_066440708.1</name>
+										<eventsRec>
+											<leaf speciesLocation="BLAN"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>Branchiostoma.lanceolatum_XM_066440143.1</name>
+									<eventsRec>
+										<leaf speciesLocation="BLAN"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_CINT_DRER_0"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="CINT"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="Node_DRER_XTRO_0"/>
+								</eventsRec>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_DRER_XTRO_0"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="DRER"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="DRER"/>
+											</eventsRec>
+											<clade>
+												<name>Danio.rerio_CA15a</name>
+												<eventsRec>
+													<leaf speciesLocation="DRER"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Danio.rerio_CA15C</name>
+												<eventsRec>
+													<leaf speciesLocation="DRER"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>Danio.rerio_CA15b</name>
+											<eventsRec>
+												<leaf speciesLocation="DRER"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="XTRO"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="HSAP"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Gallus.gallus_CA15-like</name>
+												<eventsRec>
+													<leaf speciesLocation="GGAL"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<speciation speciesLocation="Node_DRER_XTRO_0"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="DRER"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="DRER"/>
+											</eventsRec>
+											<clade>
+												<name>Danio.rerio_CA4a</name>
+												<eventsRec>
+													<leaf speciesLocation="DRER"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Danio.rerio_CA4b</name>
+												<eventsRec>
+													<leaf speciesLocation="DRER"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>Danio.rerio_CA4c</name>
+											<eventsRec>
+												<leaf speciesLocation="DRER"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+										</eventsRec>
+										<clade>
+											<name>Xenopus.tropicalis_CA4.2</name>
+											<eventsRec>
+												<leaf speciesLocation="XTRO"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+											</eventsRec>
+											<clade>
+												<name>Gallus.gallus_CA4</name>
+												<eventsRec>
+													<leaf speciesLocation="GGAL"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>Homo.sapiens_CAH4</name>
+												<eventsRec>
+													<leaf speciesLocation="HSAP"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<speciation speciesLocation="Node_BLAN_CINT_0"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="BLAN"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="Node_CINT_DRER_0"/>
+							</eventsRec>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="CINT"/>
+								</eventsRec>
+								<clade>
+									<name>Ciona.intestinalis_XM_026837963.1</name>
+									<eventsRec>
+										<leaf speciesLocation="CINT"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>Ciona.intestinalis_XM_002127863.3</name>
+									<eventsRec>
+										<leaf speciesLocation="CINT"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<duplication speciesLocation="Node_DRER_XTRO_0"/>
+								</eventsRec>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<duplication speciesLocation="Node_DRER_XTRO_0"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_DRER_XTRO_0"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="DRER"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="XTRO"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="GGAL"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Homo.sapiens_CAH6</name>
+													<eventsRec>
+														<leaf speciesLocation="HSAP"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_DRER_XTRO_0"/>
+										</eventsRec>
+										<clade>
+											<name>Danio.rerio_CA6</name>
+											<eventsRec>
+												<leaf speciesLocation="DRER"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="XTRO"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="HSAP"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Gallus.gallus_CA6</name>
+													<eventsRec>
+														<leaf speciesLocation="GGAL"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>NULL</name>
+									<eventsRec>
+										<duplication speciesLocation="Node_DRER_XTRO_0"/>
+									</eventsRec>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<duplication speciesLocation="Node_DRER_XTRO_0"/>
+										</eventsRec>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<duplication speciesLocation="Node_DRER_XTRO_0"/>
+											</eventsRec>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_DRER_XTRO_0"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="DRER"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="Node_GGAL_HSAP_0"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>Xenopus.tropicalis_CA14</name>
+														<eventsRec>
+															<leaf speciesLocation="XTRO"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_DRER_XTRO_0"/>
+												</eventsRec>
+												<clade>
+													<name>Danio.rerio_CA14</name>
+													<eventsRec>
+														<leaf speciesLocation="DRER"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="XTRO"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+														</eventsRec>
+														<clade>
+															<name>Gallus.gallus_CA14</name>
+															<eventsRec>
+																<leaf speciesLocation="GGAL"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Homo.sapiens_CAH14</name>
+															<eventsRec>
+																<leaf speciesLocation="HSAP"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_DRER_XTRO_0"/>
+											</eventsRec>
+											<clade>
+												<name>Danio.rerio_CA9</name>
+												<eventsRec>
+													<leaf speciesLocation="DRER"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<duplication speciesLocation="Node_XTRO_GGAL_0"/>
+												</eventsRec>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="XTRO"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="GGAL"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Homo.sapiens_CAH9</name>
+															<eventsRec>
+																<leaf speciesLocation="HSAP"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>NULL</name>
+													<eventsRec>
+														<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+													</eventsRec>
+													<clade>
+														<name>Xenopus.tropicalis_CA9</name>
+														<eventsRec>
+															<leaf speciesLocation="XTRO"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>NULL</name>
+														<eventsRec>
+															<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="HSAP"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>Gallus.gallus_CA9</name>
+															<eventsRec>
+																<leaf speciesLocation="GGAL"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>NULL</name>
+										<eventsRec>
+											<speciation speciesLocation="Node_DRER_XTRO_0"/>
+										</eventsRec>
+										<clade>
+											<name>Danio.rerio_CA12</name>
+											<eventsRec>
+												<leaf speciesLocation="DRER"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>NULL</name>
+											<eventsRec>
+												<speciation speciesLocation="Node_XTRO_GGAL_0"/>
+											</eventsRec>
+											<clade>
+												<name>Xenopus.tropicalis_CA12</name>
+												<eventsRec>
+													<leaf speciesLocation="XTRO"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>NULL</name>
+												<eventsRec>
+													<speciation speciesLocation="Node_GGAL_HSAP_0"/>
+												</eventsRec>
+												<clade>
+													<name>Gallus.gallus_CA12</name>
+													<eventsRec>
+														<leaf speciesLocation="GGAL"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>Homo.sapiens_CAH12</name>
+													<eventsRec>
+														<leaf speciesLocation="HSAP"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+		<name>NULL</name>
+		<eventsRec>
+			<duplication speciesLocation="AQUE"/>
+		</eventsRec>
+		<clade>
+			<name>NULL</name>
+			<eventsRec>
+				<duplication speciesLocation="AQUE"/>
+			</eventsRec>
+			<clade>
+				<name>Amphimedon.queenslandica_XM_003386575.3_OUTGROUP</name>
+				<eventsRec>
+					<leaf speciesLocation="AQUE"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>Amphimedon.queenslandica_XM_003383369.3_OUTGROUP</name>
+				<eventsRec>
+					<leaf speciesLocation="AQUE"/>
+				</eventsRec>
+			</clade>
+		</clade>
+		<clade>
+			<name>NULL</name>
+			<eventsRec>
+				<duplication speciesLocation="AQUE"/>
+			</eventsRec>
+			<clade>
+				<name>Amphimedon.queenslandica_XM_020000513.1_OUTGROUP</name>
+				<eventsRec>
+					<leaf speciesLocation="AQUE"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>Amphimedon.queenslandica_XM_003388939.2_OUTGROUP</name>
+				<eventsRec>
+					<leaf speciesLocation="AQUE"/>
+				</eventsRec>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</recGeneTree>
+</recPhylo>
