@@ -32,21 +32,21 @@ contains labels, summary, and the final result from the alignment-free αCA clus
 ### `dN-dS_Evolution_Rate/` 
 contains documents required to recreate the rate of evolution(dN/dS) analysis for 1) arthropod, 2) chordates, and 3) arthropod vs. chordates  
 - `Arthropod_dN-dS/`
-    * for `Cytosolic/`, `E&Mb/`, and `CARP/`
+    * for `Clade II/`, `Clade III/`, and `Clade I/`
       + **cst-edited_aCA.fasta** -- edited arthropod CARP αCA nucleotide alignment used for dN/dS analysis. Only codons where its corresponding aminoacid has 50% homology across sequences within each arthropod clades were kept.
       + **phylogeny.contree** -- arthropod CARP αCA phylogeny used for dN/dS analysis. 
       + **dn-ds.json** -- unparsed, raw dN/dS value for all branches and nodes. 
       + **final_omega.xlsx** -- parsed dN/dS values for branches and nodes for arthropod CARP αCA nucleotide
 
 - `Chordate_dN-dS/`
-   * for `Cytosolic/`, `E&Mb/`, and `CARP/`
+    * for `Clade II/`, `Clade III/`, and `Clade I/`
       + **cst-edited_aCA.fasta** -- edited chordate CARP αCA nucleotide alignment used for dN/dS analysis. Only codons where its corresponding aminoacid has 50% homology across sequences within each chordate clades were kept.
       + **phylogeny.contree** -- chordate CARP αCA phylogeny used for dN/dS analysis. 
       + **dn-ds.json** -- unparsed, raw dN/dS value for all branches and nodes. 
       + **final_omega.xlsx** -- parsed dN/dS values for branches and nodes for chordate CARP αCA nucleotide
      
 - `Arthropod_vs_Chordate_dN-dS/`
-   * for `Cytosolic/`, `E&Mb/`, and `CARP/`
+    * for `Clade II/`, `Clade III/`, and `Clade I/`
    * The **XXX** below is meant to be substituted by either arthropod or chordate.
       + **XXX_cst-edited_aCA.fasta** -- edited CARP αCA nucleotide alignment used for dN/dS analysis. Only codons where its corresponding aminoacid has 50% homology across sequences within both arthropod and chordate clades  were kept.
       + **XXX_phylogeny.contree** -- CARP αCA phylogeny used for dN/dS analysis. 
@@ -60,17 +60,17 @@ contains documents required to recreate the rate of evolution(dN/dS) analysis fo
 
 ### `Signature_of_selection_analysis/` 
 contains files required to recreate the aBSREL, MEME, and BUSTED analysis done in this study
-- `CARP/`
+- `Clade I/`
    * `aBSREL/`
      + **cst-edited_aCA_with-phylogeny.txt** -- edited arthropod CARP αCA alignment with newick-formatted phylogeny.  
      + **all-branches_foreground.json** -- generated aBSREL results when all branches/nodes were tested. 
      + **Eurytemora_foreground.json** -- generated aBSREL results when only Eurytemora branches/nodes were tested
-- `Cytosolic/`
+- `Clade II/`
    * `aBSREL/`
      + **cst-edited_aCA_with-phylogeny.txt** -- edited arthropod Cytosolic αCA alignment with newick-formatted phylogeny.  
      + **all-branches_foreground.json** -- generated aBSREL results when all branches/nodes were tested. 
      + **Eurytemora_foreground.json** -- generated aBSREL results when only Eurytemora branches/nodes were tested
-- `E&Mb`
+- `Clade III`
    * `aBSREL/`
      + **cst-edited_aCA_with-phylogeny.txt** -- edited arthropod E&Mb αCA alignment with newick-formatted phylogeny.  
      + **all-branches_foreground.json** -- generated aBSREL results when all branches/nodes were tested. 

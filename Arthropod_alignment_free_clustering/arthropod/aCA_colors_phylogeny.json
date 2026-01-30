@@ -1,4 +1,4 @@
-{   " CARP"                                                                     : "green",
-    " Cytoplasm"                                                                : "blue",
-    " Extracellular & Membrane-bound"                                           : "brown",
+{   " CladeI"                                                                     : "green",
+    " CladeII"                                                                : "blue",
+    " CladeIII"                                           : "brown",
 }
